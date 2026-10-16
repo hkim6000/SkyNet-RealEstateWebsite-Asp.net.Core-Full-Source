@@ -1,0 +1,116 @@
+[
+  {
+    "id": "u-admin",
+    "login": "admin",
+    "name": "Administrator",
+    "title": "Office manager",
+    "hash": "pbkdf2$100000$UOzJUd5FvPvj8GvVGFsTRQ==$TQx2QVzgEP1D2TeIFVT17zIt3Vrw8/mqwOVOrEQnx5s=",
+    "agentId": "",
+    "own": false,
+    "admin": true,
+    "active": true,
+    "perms": {}
+  },
+  {
+    "id": "u-grace",
+    "login": "grace",
+    "name": "Grace Holloway",
+    "title": "Managing broker",
+    "hash": "pbkdf2$100000$xTDoP3seLfRHPYw5oeAVPQ==$NYkN2pBYaqffp8goyr/Rdiw8w9s+Lt0lsLE89nA4+Oo=",
+    "agentId": "a-holloway",
+    "own": true,
+    "admin": false,
+    "active": true,
+    "perms": {
+      "listings": "VE",
+      "leads": "VE",
+      "viewings": "VE",
+      "areas": "V"
+    }
+  },
+  {
+    "id": "u-marcus",
+    "login": "marcus",
+    "name": "Marcus Reed",
+    "title": "Senior agent",
+    "hash": "pbkdf2$100000$OzTwJlwyAl3C5Q42Yk91Jw==$6nv6yLEE7yqerVM+KvOezP9pU/HLdavLBpBOAqThVA0=",
+    "agentId": "a-reed",
+    "own": true,
+    "admin": false,
+    "active": true,
+    "perms": {
+      "listings": "VE",
+      "leads": "VE",
+      "viewings": "VE",
+      "areas": "V"
+    }
+  },
+  {
+    "id": "u-priya",
+    "login": "priya",
+    "name": "Priya Natarajan",
+    "title": "Buyer specialist",
+    "hash": "pbkdf2$100000$R70ZSYKploAzUqT1C8Uiuw==$3yrGNbWH5/L1AuhG4oclmRhjXozydDEwQ6UwkdpX1F0=",
+    "agentId": "a-natarajan",
+    "own": true,
+    "admin": false,
+    "active": true,
+    "perms": {
+      "listings": "VE",
+      "leads": "VE",
+      "viewings": "VE",
+      "areas": "V"
+    }
+  },
+  {
+    "id": "u-daniel",
+    "login": "daniel",
+    "name": "Daniel Ortega",
+    "title": "Listing agent",
+    "hash": "pbkdf2$100000$DZyQaqdJBQYS4HVG0gFBfg==$7vPZHY1DxiYQ5ktHR1DYn9ikp3DSsG49Gq2SJAewM4k=",
+    "agentId": "a-ortega",
+    "own": true,
+    "admin": false,
+    "active": true,
+    "perms": {
+      "listings": "VE",
+      "leads": "VE",
+      "viewings": "VE",
+      "areas": "V"
+    }
+  },
+  {
+    "id": "u-hannah",
+    "login": "hannah",
+    "name": "Hannah Price",
+    "title": "Rentals manager",
+    "hash": "pbkdf2$100000$FR+/q6soxen+1Egg/Cy1KA==$vDpiREOpr+q9hanAgoEFyspcCk1R/qv70zQ7A/4iSgQ=",
+    "agentId": "a-price",
+    "own": true,
+    "admin": false,
+    "active": true,
+    "perms": {
+      "listings": "VE",
+      "leads": "VE",
+      "viewings": "VE",
+      "areas": "V"
+    }
+  },
+  {
+    "id": "u-owen",
+    "login": "owen",
+    "name": "Owen Fitzgerald",
+    "title": "Waterfront specialist",
+    "hash": "pbkdf2$100000$BIxsgDSKG70uspYbhWoTTA==$kgZVE+wZKZ9monAFis9U02+NIOSzKWDq6HJPJPFm3tg=",
+    "agentId": "a-fitzgerald",
+    "own": true,
+    "admin": false,
+    "active": true,
+    "perms": {
+      "listings": "VE",
+      "leads": "VE",
+      "viewings": "VE",
+      "areas": "V"
+    }
+  }
+]

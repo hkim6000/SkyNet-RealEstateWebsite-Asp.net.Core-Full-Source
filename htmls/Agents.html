@@ -1,0 +1,32 @@
+<div class="ag-site" id="ag-site" data-page="Agents" data-theme="{plhd_theme}" style="{plhd_style}">
+<div class="ag-strip"><div class="ag-wrap ag-strip-in"><span>{plhd_today}</span><span class="ag-strip-r"><a href="tel:{plhd_tel}">{plhd_phone}</a><a href="mailto:{plhd_email}" class="ag-smail">{plhd_email}</a></span></div></div>
+<header class="ag-top">
+    <div class="ag-wrap ag-top-in">
+        <button type="button" class="ag-ibtn ag-burger" aria-label="Menu" onclick="AgentsJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        <a class="ag-brand" href="Home"><svg class="ag-logo" viewBox="0 0 40 40" width="40" height="40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="var(--ag-accent)"/><path d="M8 21L20 10l12 11" fill="none" stroke="#fff" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M12.5 19.5V30h15V19.5" fill="none" stroke="#fff" stroke-width="2.8" stroke-linejoin="round"/><path d="M17.5 30v-6h5v6" fill="#fff"/></svg><span><b>{plhd_name}</b><small>{plhd_town}</small></span></a>
+        <nav class="ag-nav" aria-label="Main">{plhd_nav}</nav>
+        <div class="ag-tools">
+            <a class="ag-saved" href="Listings?saved=1" aria-label="Saved homes" title="Saved homes"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.3a4.3 4.3 0 0 1 7.5 2.5C19.5 15.4 12 20 12 20z"/></svg><i id="ag-scount" hidden>0</i></a>
+            <button type="button" class="ag-ibtn" aria-label="Light or dark" title="Light or dark" onclick="AgentsJs.toggleTheme()"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a7 7 0 1 0 10.5 10.5z"/></svg></button>
+            <a class="ag-btn ag-btn-accent ag-cta" href="Sell">Free valuation</a>
+        </div>
+    </div>
+</header>
+<aside class="ag-drawer" id="ag-nav" aria-label="Menu">
+    <div class="ag-dr-top"><b>{plhd_name}</b><button type="button" class="ag-ibtn" aria-label="Close" onclick="AgentsJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <nav class="ag-dr-list">{plhd_drawer}</nav>
+    <a class="ag-btn ag-btn-accent ag-btn-wide" href="Sell">Get a free valuation</a>
+</aside>
+<div class="ag-scrim" id="ag-scrim" onclick="AgentsJs.closeNav()"></div>
+<main class="ag-main" id="ag-main">{plhd_main}</main>
+<footer class="ag-foot">
+    <div class="ag-wrap ag-foot-in">
+        <div class="ag-fcol ag-fabout"><a class="ag-fbrand" href="Home">{plhd_name}</a><p>{plhd_tagline}</p><p class="ag-faddr">{plhd_addr}<br><a href="tel:{plhd_tel}">{plhd_phone}</a><br><a href="mailto:{plhd_email}">{plhd_email}</a></p></div>
+        <div class="ag-fcol"><b>Search</b><a href="Listings?deal=sale">Homes for sale</a><a href="Listings?deal=rent">Homes for rent</a><a href="Listings?view=map">Map search</a><a href="Listings?saved=1">Saved homes</a><a href="Mortgage">Mortgage calculator</a></div>
+        <div class="ag-fcol"><b>Neighborhoods</b>{plhd_areas}</div>
+        <div class="ag-fcol ag-fnews"><b>New listings by email</b><p>One short email when homes that match Ashby Harbor go on the market. No spam.</p><form class="ag-nform" onsubmit="return AgentsJs.subscribe()" novalidate><label class="ag-sr" for="ag-nlmail">Email</label><input type="email" id="ag-nlmail" maxlength="120" placeholder="you@example.com" autocomplete="email"><button type="submit" class="ag-btn ag-btn-accent ag-btn-sm">Sign up</button></form><em class="ag-err ag-ferr" id="ag-e-nlmail" role="alert"></em><span class="ag-flinks"><a href="Contact">Contact</a> &middot; <a href="AdminLogin">Staff sign in</a></span></div>
+    </div>
+    <div class="ag-wrap ag-copy"><span>&copy; 2026 {plhd_name} &middot; {plhd_license}</span><span>A fictional agency built with the SkyNet Framework. Homes, people and prices are invented.</span></div>
+</footer>
+<div class="ag-toast" id="ag-toast" role="status" aria-live="polite"></div>
+</div>

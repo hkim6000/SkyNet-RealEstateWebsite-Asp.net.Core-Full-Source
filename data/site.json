@@ -1,0 +1,3534 @@
+{
+  "anchor": "0001-01-01T00:00:00",
+  "settings": {
+    "name": "Sky Realty",
+    "tagline": "Homes for sale and rent in Ashby Harbor, from the people who live here.",
+    "town": "Ashby Harbor",
+    "address": "12 Market Square, Ashby Harbor",
+    "phone": "(555) 020-3100",
+    "email": "hello@skyrealty.example",
+    "accent": "#B5562F",
+    "theme": "light",
+    "license": "Sky Realty LLC \u00B7 Brokerage lic. 0450-001",
+    "agentWord": "Agent",
+    "agentsWord": "Agents",
+    "heroTitle": "Find your place in Ashby Harbor",
+    "heroText": "Houses, condos and lofts across six neighborhoods, from the waterfront to the pines. Search, save and book a viewing in a minute.",
+    "aboutTitle": "A local team since 2008",
+    "aboutText": "Sky Realty is an independent agency of six agents who live in the neighborhoods we sell. We price honestly, answer the same day and walk every home before we list it.",
+    "sellTitle": "What is your home worth?",
+    "sellText": "Tell us about your home and an agent who sells in your neighborhood will send a free valuation within two working days, with recent sales nearby.",
+    "rate": 6.5,
+    "term": 30,
+    "downPct": 20,
+    "taxRate": 1.1,
+    "insurance": 1500,
+    "pmi": 0.5,
+    "disclaimer": "Estimates only. Your lender will give you the exact rate and payment.",
+    "clock24": false,
+    "timeZone": "America/New_York",
+    "hours": [
+      {
+        "day": 0,
+        "open": false,
+        "start": "09:00",
+        "end": "16:00"
+      },
+      {
+        "day": 1,
+        "open": true,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 2,
+        "open": true,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 3,
+        "open": true,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 4,
+        "open": true,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 5,
+        "open": true,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 6,
+        "open": true,
+        "start": "10:00",
+        "end": "16:00"
+      }
+    ],
+    "viewingMinutes": 30,
+    "viewingStart": "09:00",
+    "viewingEnd": "18:00"
+  },
+  "areas": [
+    {
+      "key": "old-harbor",
+      "name": "Old Harbor",
+      "blurb": "Brick lofts, caf\u00E9s and the waterfront promenade, a short walk from the ferry.",
+      "text": "The oldest part of Ashby Harbor wraps around the bay: converted warehouses, narrow streets of row houses and the Saturday market on the quay. Most homes are condos and lofts within a ten-minute walk of the ferry and the train.",
+      "color": "#B5562F",
+      "x": 520,
+      "y": 470,
+      "image": "images/homes/full/loft-building.webp",
+      "order": 0,
+      "active": true
+    },
+    {
+      "key": "riverside",
+      "name": "Riverside",
+      "blurb": "Family streets along the river path, with the best-rated primary school in town.",
+      "text": "Tree-lined streets of craftsman and bungalow homes run down to the river path. Riverside has two parks, the town library and an easy bike ride to downtown along the water.",
+      "color": "#3D6FA8",
+      "x": 330,
+      "y": 420,
+      "image": "images/homes/full/craftsman.webp",
+      "order": 1,
+      "active": true
+    },
+    {
+      "key": "hillcrest",
+      "name": "Hillcrest",
+      "blurb": "Larger homes on quiet curving roads, with views over the bay.",
+      "text": "Hillcrest climbs the slopes north of downtown. Homes are larger, gardens deeper and many upper floors look out over the harbor. It is quiet, green and ten minutes by car from the center.",
+      "color": "#6B4FA0",
+      "x": 500,
+      "y": 150,
+      "image": "images/homes/full/colonial.webp",
+      "order": 2,
+      "active": true
+    },
+    {
+      "key": "pine-hollow",
+      "name": "Pine Hollow",
+      "blurb": "Cottages and farmhouses among the pines, with trails from the back door.",
+      "text": "On the wooded west side of town, Pine Hollow mixes cottages, farmhouses and newer homes on generous lots. Trails lead into the state forest, and the farm stand on Hollow Road opens every summer weekend.",
+      "color": "#2F5D50",
+      "x": 150,
+      "y": 330,
+      "image": "images/homes/full/cottage.webp",
+      "order": 3,
+      "active": true
+    },
+    {
+      "key": "north-point",
+      "name": "North Point",
+      "blurb": "Waterfront homes and modern houses on the peninsula, near the lighthouse.",
+      "text": "North Point is the peninsula at the north end of the bay. Many homes have their own dock or a path to the beach, and the lighthouse park is at the tip. The sailing club and the marina are here too.",
+      "color": "#2D8FA6",
+      "x": 840,
+      "y": 170,
+      "image": "images/homes/full/waterfront.webp",
+      "order": 4,
+      "active": true
+    },
+    {
+      "key": "the-meadows",
+      "name": "The Meadows",
+      "blurb": "Newer neighborhoods with townhouses, ranch homes and big back yards.",
+      "text": "Built over the last twenty years on former farmland east of downtown, The Meadows has townhouses, ranch homes and modern family houses, the sports park and the shopping center on Meadow Parkway.",
+      "color": "#8A7A2E",
+      "x": 750,
+      "y": 410,
+      "image": "images/homes/full/townhouses.webp",
+      "order": 5,
+      "active": true
+    }
+  ],
+  "agents": [
+    {
+      "id": "a-holloway",
+      "name": "Grace Holloway",
+      "title": "Managing broker",
+      "photo": "images/agents/holloway.webp",
+      "areas": [
+        "hillcrest",
+        "north-point"
+      ],
+      "languages": [
+        "English",
+        "French"
+      ],
+      "years": 18,
+      "phone": "(555) 020-3101",
+      "email": "grace.holloway@skyrealty.example",
+      "license": "Broker lic. 0451-778",
+      "bio": "Grace opened Sky Realty\u0027s Ashby Harbor office and still lists homes every week. She knows Hillcrest and North Point street by street, and is known for straight talk about pricing.",
+      "active": true,
+      "order": 0
+    },
+    {
+      "id": "a-reed",
+      "name": "Marcus Reed",
+      "title": "Senior agent",
+      "photo": "images/agents/reed.webp",
+      "areas": [
+        "old-harbor",
+        "riverside"
+      ],
+      "languages": [
+        "English"
+      ],
+      "years": 12,
+      "phone": "(555) 020-3102",
+      "email": "marcus.reed@skyrealty.example",
+      "license": "Agent lic. 0498-221",
+      "bio": "Marcus grew up in Old Harbor and helps first-time buyers find their footing downtown. Before real estate he was a contractor, so he will tell you what an inspection is likely to find.",
+      "active": true,
+      "order": 1
+    },
+    {
+      "id": "a-natarajan",
+      "name": "Priya Natarajan",
+      "title": "Buyer specialist",
+      "photo": "images/agents/natarajan.webp",
+      "areas": [
+        "the-meadows",
+        "riverside"
+      ],
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "years": 9,
+      "phone": "(555) 020-3103",
+      "email": "priya.natarajan@skyrealty.example",
+      "license": "Agent lic. 0512-064",
+      "bio": "Priya works with families moving to Ashby Harbor for the schools. She plans viewings around nap times and school runs and answers messages late into the evening.",
+      "active": true,
+      "order": 2
+    },
+    {
+      "id": "a-ortega",
+      "name": "Daniel Ortega",
+      "title": "Listing agent",
+      "photo": "images/agents/ortega.webp",
+      "areas": [
+        "pine-hollow",
+        "the-meadows"
+      ],
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "years": 7,
+      "phone": "(555) 020-3104",
+      "email": "daniel.ortega@skyrealty.example",
+      "license": "Agent lic. 0533-910",
+      "bio": "Daniel prepares homes for sale: staging, photos, the right price on the first day. He specializes in the farmhouses and cottages of Pine Hollow.",
+      "active": true,
+      "order": 3
+    },
+    {
+      "id": "a-price",
+      "name": "Hannah Price",
+      "title": "Rentals manager",
+      "photo": "images/agents/price.webp",
+      "areas": [
+        "old-harbor",
+        "the-meadows"
+      ],
+      "languages": [
+        "English",
+        "German"
+      ],
+      "years": 6,
+      "phone": "(555) 020-3105",
+      "email": "hannah.price@skyrealty.example",
+      "license": "Agent lic. 0547-302",
+      "bio": "Hannah looks after rentals, from studio lofts to family homes. Landlords trust her with tenant checks; tenants like that she replies the same day.",
+      "active": true,
+      "order": 4
+    },
+    {
+      "id": "a-fitzgerald",
+      "name": "Owen Fitzgerald",
+      "title": "Waterfront specialist",
+      "photo": "images/agents/fitzgerald.webp",
+      "areas": [
+        "north-point",
+        "old-harbor"
+      ],
+      "languages": [
+        "English"
+      ],
+      "years": 15,
+      "phone": "(555) 020-3106",
+      "email": "owen.fitzgerald@skyrealty.example",
+      "license": "Agent lic. 0476-118",
+      "bio": "A lifelong sailor, Owen knows every dock, seawall and flood map on the bay. If a home has water views or water access, he has probably been inside it.",
+      "active": true,
+      "order": 5
+    }
+  ],
+  "listings": [
+    {
+      "id": "L-1041",
+      "title": "Cottage home with hardwood floors",
+      "street": "174 Fern Lane",
+      "area": "pine-hollow",
+      "kind": "house",
+      "style": "Cottage",
+      "deal": "sale",
+      "price": 805000,
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2660,
+      "lot": 9500,
+      "year": 1924,
+      "parking": 1,
+      "hoa": 0,
+      "tax": 8510,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/cottage.webp",
+        "images/homes/full/living-fireplace.webp",
+        "images/homes/full/kitchen-wood.webp",
+        "images/homes/full/sunroom.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This cottage home sits on a 9,500 sq ft lot at 174 Fern Lane, a short walk from the forest trails. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 4 bedrooms, including a primary suite with its own bath. A walk-in closet and hardwood floors come with the house, and the driveway parking keeps winter mornings simple.\n\nBuilt in 1924 and cared for by the same owners for years, it is ready to move in. Ask Daniel for the inspection report and a list of recent work.",
+      "features": [
+        "Walk-in closet",
+        "Hardwood floors",
+        "Fireplace",
+        "EV charger"
+      ],
+      "x": 122.8,
+      "y": 305.1,
+      "agent": "a-ortega",
+      "listed": "2026-09-16T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-09-16T10:00:00",
+          "event": "Listed",
+          "price": 805000
+        }
+      ],
+      "opens": [],
+      "views": 107,
+      "saves": 29
+    },
+    {
+      "id": "L-1042",
+      "title": "Modern townhouse, move-in ready",
+      "street": "112 Crestwood Court",
+      "area": "hillcrest",
+      "kind": "townhouse",
+      "style": "Townhouse",
+      "deal": "sale",
+      "price": 745000,
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 1760,
+      "lot": 2200,
+      "year": 2018,
+      "parking": 1,
+      "hoa": 365,
+      "tax": 8750,
+      "status": "sold",
+      "featured": false,
+      "photos": [
+        "images/homes/full/townhouses.webp",
+        "images/homes/full/living-bright.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/dining.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "A 3-bedroom townhouse at 112 Crestwood Court, close to Summit Park. The open main floor has the living room, dining area and a kitchen with plenty of storage.\n\nThe bedrooms are upstairs, with 2.5 baths in all. A patio and a home office are included, and the association looks after the outside.\n\nBuilt in 2018. Monthly fees of $365 cover exterior upkeep, snow removal and the shared green.",
+      "features": [
+        "Patio",
+        "Home office",
+        "Walk-in closet"
+      ],
+      "x": 416,
+      "y": 203.3,
+      "agent": "a-holloway",
+      "listed": "2026-07-31T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-07-31T10:00:00",
+          "event": "Listed",
+          "price": 745000
+        },
+        {
+          "when": "2026-08-23T10:00:00",
+          "event": "Sold",
+          "price": 775000
+        }
+      ],
+      "opens": [],
+      "views": 606,
+      "saves": 3
+    },
+    {
+      "id": "L-1043",
+      "title": "Light-filled contemporary near Summit Park",
+      "street": "42 Lookout Lane",
+      "area": "hillcrest",
+      "kind": "house",
+      "style": "Contemporary",
+      "deal": "rent",
+      "price": 8375,
+      "beds": 5,
+      "baths": 3.5,
+      "sqft": 2940,
+      "lot": 8600,
+      "year": 2022,
+      "parking": 1,
+      "hoa": 0,
+      "tax": 0,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/pool-house.webp",
+        "images/homes/full/living-bright.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/dining.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This contemporary home sits on a 8,600 sq ft lot at 42 Lookout Lane, a short walk from Summit Park. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 5 bedrooms, including a primary suite with its own bath. A pool and a garden come with the house, and the driveway parking keeps winter mornings simple.\n\nBuilt in 2022 and cared for by the same owners for years, it is ready to move in. Ask Grace for the inspection report and a list of recent work.\n\nPets welcome. Rent excludes utilities; a deposit of one month\u0027s rent applies.",
+      "features": [
+        "Pool",
+        "Garden",
+        "Walk-in closet",
+        "Central air"
+      ],
+      "x": 426.1,
+      "y": 121.5,
+      "agent": "a-holloway",
+      "listed": "2026-08-08T10:00:00",
+      "available": "2026-11-06T00:00:00",
+      "history": [
+        {
+          "when": "2026-08-08T10:00:00",
+          "event": "Listed",
+          "price": 8375
+        }
+      ],
+      "opens": [],
+      "views": 171,
+      "saves": 62
+    },
+    {
+      "id": "L-1044",
+      "title": "Bright condo near the river path",
+      "street": "33 Mill Lane, Unit 5A",
+      "area": "riverside",
+      "kind": "condo",
+      "style": "Condo",
+      "deal": "sale",
+      "price": 305000,
+      "beds": 1,
+      "baths": 1.0,
+      "sqft": 790,
+      "lot": 0,
+      "year": 2018,
+      "parking": 1,
+      "hoa": 330,
+      "tax": 3370,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/condo.webp",
+        "images/homes/full/condo-living.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "A 1-bedroom condo at 33 Mill Lane with a bright living room and a gym. The kitchen has stone counters and full-size appliances.\n\nExtras include central air and a secure entrance, and the river path is a few minutes away on foot.\n\nMonthly fees of $330 include water, building insurance and upkeep of the common areas.",
+      "features": [
+        "Gym",
+        "Central air",
+        "Concierge",
+        "Parking space",
+        "In-unit laundry"
+      ],
+      "x": 291.7,
+      "y": 459.2,
+      "agent": "a-reed",
+      "listed": "2026-10-11T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-10-11T10:00:00",
+          "event": "Listed",
+          "price": 315000
+        },
+        {
+          "when": "2026-10-16T10:00:00",
+          "event": "Price cut",
+          "price": 305000
+        }
+      ],
+      "opens": [],
+      "views": 259,
+      "saves": 18
+    },
+    {
+      "id": "L-1045",
+      "title": "End-unit townhouse with hardwood floors",
+      "street": "170 Overlook Way",
+      "area": "hillcrest",
+      "kind": "townhouse",
+      "style": "Townhouse",
+      "deal": "sale",
+      "price": 860000,
+      "beds": 4,
+      "baths": 3.0,
+      "sqft": 2060,
+      "lot": 2200,
+      "year": 1998,
+      "parking": 1,
+      "hoa": 475,
+      "tax": 8310,
+      "status": "active",
+      "featured": true,
+      "photos": [
+        "images/homes/full/townhouses.webp",
+        "images/homes/full/living-bright.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/dining.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/kids-room.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "A 4-bedroom townhouse at 170 Overlook Way, close to Summit Park. The open main floor has the living room, dining area and a kitchen with plenty of storage.\n\nThe bedrooms are upstairs, with 3 baths in all. Central air and hardwood floors are included, and the association looks after the outside.\n\nBuilt in 1998. Monthly fees of $475 cover exterior upkeep, snow removal and the shared green.",
+      "features": [
+        "Central air",
+        "Hardwood floors",
+        "Home office",
+        "Walk-in closet"
+      ],
+      "x": 603,
+      "y": 172.2,
+      "agent": "a-holloway",
+      "listed": "2026-09-10T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-09-10T10:00:00",
+          "event": "Listed",
+          "price": 860000
+        }
+      ],
+      "opens": [
+        {
+          "date": "2026-10-25T00:00:00",
+          "start": "11:00",
+          "end": "13:00"
+        }
+      ],
+      "views": 91,
+      "saves": 3
+    },
+    {
+      "id": "L-1046",
+      "title": "Updated craftsman with a home office",
+      "street": "172 Otter Way",
+      "area": "riverside",
+      "kind": "house",
+      "style": "Craftsman",
+      "deal": "rent",
+      "price": 5350,
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2430,
+      "lot": 12700,
+      "year": 1938,
+      "parking": 1,
+      "hoa": 0,
+      "tax": 0,
+      "status": "rented",
+      "featured": false,
+      "photos": [
+        "images/homes/full/craftsman.webp",
+        "images/homes/full/living-fireplace.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/dining.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/kids-room.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This craftsman home sits on a 12,700 sq ft lot at 172 Otter Way, a short walk from the river path. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 3 bedrooms, including a primary suite with its own bath. A home office and central air come with the house, and the driveway parking keeps winter mornings simple.\n\nBuilt in 1938 and cared for by the same owners for years, it is ready to move in. Ask Hannah for the inspection report and a list of recent work.\n\nPets welcome. Rent excludes utilities; a deposit of one month\u0027s rent applies.",
+      "features": [
+        "Home office",
+        "Central air",
+        "Basement",
+        "Solar panels"
+      ],
+      "x": 346.3,
+      "y": 446,
+      "agent": "a-price",
+      "listed": "2026-08-11T10:00:00",
+      "available": "2026-11-30T00:00:00",
+      "history": [
+        {
+          "when": "2026-08-11T10:00:00",
+          "event": "Listed",
+          "price": 5350
+        },
+        {
+          "when": "2026-08-18T10:00:00",
+          "event": "Rented",
+          "price": 5350
+        }
+      ],
+      "opens": [],
+      "views": 110,
+      "saves": 10
+    },
+    {
+      "id": "L-1047",
+      "title": "Family ranch on a quiet street",
+      "street": "83 Cedar Path",
+      "area": "pine-hollow",
+      "kind": "house",
+      "style": "Ranch",
+      "deal": "sale",
+      "price": 660000,
+      "beds": 2,
+      "baths": 1.0,
+      "sqft": 2160,
+      "lot": 18000,
+      "year": 1924,
+      "parking": 1,
+      "hoa": 0,
+      "tax": 7600,
+      "status": "pending",
+      "featured": false,
+      "photos": [
+        "images/homes/full/ranch.webp",
+        "images/homes/full/living-fireplace.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/dining.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/kids-room.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This ranch home sits on a 18,000 sq ft lot at 83 Cedar Path, a short walk from the forest trails. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 2 bedrooms, including a primary suite with its own bath. A mudroom and solar panels come with the house, and the driveway parking keeps winter mornings simple.\n\nBuilt in 1924 and cared for by the same owners for years, it is ready to move in. Ask Daniel for the inspection report and a list of recent work.",
+      "features": [
+        "Mudroom",
+        "Solar panels",
+        "Hardwood floors",
+        "Central air",
+        "Deck"
+      ],
+      "x": 94.7,
+      "y": 377.4,
+      "agent": "a-ortega",
+      "listed": "2026-08-08T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-08-08T10:00:00",
+          "event": "Listed",
+          "price": 700000
+        },
+        {
+          "when": "2026-10-13T10:00:00",
+          "event": "Price cut",
+          "price": 660000
+        },
+        {
+          "when": "2026-10-15T10:00:00",
+          "event": "Under offer",
+          "price": 660000
+        }
+      ],
+      "opens": [],
+      "views": 290,
+      "saves": 49
+    },
+    {
+      "id": "L-1048",
+      "title": "Waterfront home with a walk-in closet",
+      "street": "32 Lighthouse Road",
+      "area": "north-point",
+      "kind": "house",
+      "style": "Waterfront",
+      "deal": "rent",
+      "price": 8700,
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2650,
+      "lot": 10300,
+      "year": 2016,
+      "parking": 1,
+      "hoa": 0,
+      "tax": 0,
+      "status": "rented",
+      "featured": false,
+      "photos": [
+        "images/homes/full/waterfront.webp",
+        "images/homes/full/living-fireplace.webp",
+        "images/homes/full/kitchen-wood.webp",
+        "images/homes/full/dining.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This waterfront home sits on a 10,300 sq ft lot at 32 Lighthouse Road, a short walk from the marina. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 3 bedrooms, including a primary suite with its own bath. A waterfront setting and a private dock come with the house, and the driveway parking keeps winter mornings simple.\n\nBuilt in 2016 and cared for by the same owners for years, it is ready to move in. Ask Grace for the inspection report and a list of recent work.\n\nSorry, no pets. Rent excludes utilities; a deposit of one month\u0027s rent applies.",
+      "features": [
+        "Waterfront",
+        "Private dock",
+        "Central air",
+        "Walk-in closet",
+        "Garden"
+      ],
+      "x": 831.3,
+      "y": 223.9,
+      "agent": "a-holloway",
+      "listed": "2026-10-10T10:00:00",
+      "available": "2026-11-06T00:00:00",
+      "history": [
+        {
+          "when": "2026-10-10T10:00:00",
+          "event": "Listed",
+          "price": 8700
+        },
+        {
+          "when": "2026-10-15T10:00:00",
+          "event": "Rented",
+          "price": 8700
+        }
+      ],
+      "opens": [],
+      "views": 692,
+      "saves": 35
+    },
+    {
+      "id": "L-1049",
+      "title": "Light-filled colonial near the river path",
+      "street": "13 Ferry Road",
+      "area": "riverside",
+      "kind": "house",
+      "style": "Colonial",
+      "deal": "sale",
+      "price": 920000,
+      "beds": 3,
+      "baths": 2.0,
+      "sqft": 2430,
+      "lot": 4600,
+      "year": 2021,
+      "parking": 2,
+      "hoa": 0,
+      "tax": 9930,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/colonial.webp",
+        "images/homes/full/living-bright.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/dining.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This colonial home sits on a 4,600 sq ft lot at 13 Ferry Road, a short walk from the river path. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 3 bedrooms, including a primary suite with its own bath. A garage and hardwood floors come with the house, and the two-car garage keeps winter mornings simple.\n\nBuilt in 2021 and cared for by the same owners for years, it is ready to move in. Ask Priya for the inspection report and a list of recent work.",
+      "features": [
+        "Garage",
+        "Hardwood floors",
+        "Mudroom",
+        "Solar panels",
+        "Fireplace"
+      ],
+      "x": 398.3,
+      "y": 388.3,
+      "agent": "a-natarajan",
+      "listed": "2026-09-15T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-09-15T10:00:00",
+          "event": "Listed",
+          "price": 920000
+        }
+      ],
+      "opens": [],
+      "views": 462,
+      "saves": 5
+    },
+    {
+      "id": "L-1050",
+      "title": "1-bedroom loft near the quay",
+      "street": "123 Ropewalk Lane, Unit 5A",
+      "area": "old-harbor",
+      "kind": "loft",
+      "style": "Loft",
+      "deal": "sale",
+      "price": 580000,
+      "beds": 1,
+      "baths": 1.0,
+      "sqft": 1130,
+      "lot": 0,
+      "year": 1915,
+      "parking": 0,
+      "hoa": 310,
+      "tax": 5580,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/loft-building.webp",
+        "images/homes/full/loft-living.webp",
+        "images/homes/full/kitchen-wood.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "A converted warehouse loft at 123 Ropewalk Lane: tall windows, timber beams and an open plan that is easy to make your own.\n\nThere is one bedroom and 1 bath, plus an elevator and high ceilings.\n\nBuilt as a rope works in 1915 and converted to homes in 2009. The quay is at the end of the street.",
+      "features": [
+        "Elevator",
+        "High ceilings",
+        "Exposed brick"
+      ],
+      "x": 469.6,
+      "y": 503,
+      "agent": "a-price",
+      "listed": "2026-10-07T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-10-07T10:00:00",
+          "event": "Listed",
+          "price": 610000
+        },
+        {
+          "when": "2026-10-12T10:00:00",
+          "event": "Price cut",
+          "price": 580000
+        }
+      ],
+      "opens": [
+        {
+          "date": "2026-10-25T00:00:00",
+          "start": "11:00",
+          "end": "13:00"
+        }
+      ],
+      "views": 158,
+      "saves": 35
+    },
+    {
+      "id": "L-1051",
+      "title": "Light-filled contemporary near the marina",
+      "street": "209 Seawall Avenue",
+      "area": "north-point",
+      "kind": "house",
+      "style": "Contemporary",
+      "deal": "sale",
+      "price": 1610000,
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2430,
+      "lot": 7800,
+      "year": 2014,
+      "parking": 2,
+      "hoa": 0,
+      "tax": 17810,
+      "status": "active",
+      "featured": true,
+      "photos": [
+        "images/homes/full/pool-house.webp",
+        "images/homes/full/living-fireplace.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/sunroom.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This contemporary home sits on a 7,800 sq ft lot at 209 Seawall Avenue, a short walk from the marina. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 3 bedrooms, including a primary suite with its own bath. A pool and a deck come with the house, and the two-car garage keeps winter mornings simple.\n\nBuilt in 2014 and cared for by the same owners for years, it is ready to move in. Ask Grace for the inspection report and a list of recent work.",
+      "features": [
+        "Pool",
+        "Deck",
+        "Central air",
+        "Garage"
+      ],
+      "x": 826.1,
+      "y": 183.9,
+      "agent": "a-holloway",
+      "listed": "2026-08-25T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-08-25T10:00:00",
+          "event": "Listed",
+          "price": 1610000
+        }
+      ],
+      "opens": [
+        {
+          "date": "2026-10-24T00:00:00",
+          "start": "11:00",
+          "end": "13:00"
+        }
+      ],
+      "views": 218,
+      "saves": 40
+    },
+    {
+      "id": "L-1052",
+      "title": "Top-floor condo with views",
+      "street": "206 Tidewater Way, Unit 4C",
+      "area": "old-harbor",
+      "kind": "condo",
+      "style": "Condo",
+      "deal": "sale",
+      "price": 670000,
+      "beds": 3,
+      "baths": 2.0,
+      "sqft": 1570,
+      "lot": 0,
+      "year": 2006,
+      "parking": 1,
+      "hoa": 355,
+      "tax": 7960,
+      "status": "sold",
+      "featured": false,
+      "photos": [
+        "images/homes/full/condo.webp",
+        "images/homes/full/condo-living.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "A 3-bedroom condo at 206 Tidewater Way with a bright living room and central air. The kitchen has stone counters and full-size appliances.\n\nExtras include a gym and a secure entrance, and the quay is a few minutes away on foot.\n\nMonthly fees of $355 include water, building insurance and upkeep of the common areas.",
+      "features": [
+        "Central air",
+        "Gym",
+        "In-unit laundry",
+        "Parking space",
+        "Balcony"
+      ],
+      "x": 578.8,
+      "y": 486.4,
+      "agent": "a-fitzgerald",
+      "listed": "2026-09-27T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-09-27T10:00:00",
+          "event": "Listed",
+          "price": 700000
+        },
+        {
+          "when": "2026-10-08T10:00:00",
+          "event": "Price cut",
+          "price": 670000
+        },
+        {
+          "when": "2026-10-15T10:00:00",
+          "event": "Sold",
+          "price": 671000
+        }
+      ],
+      "opens": [],
+      "views": 775,
+      "saves": 51
+    },
+    {
+      "id": "L-1053",
+      "title": "Updated modern with a deck",
+      "street": "237 Meadow Parkway",
+      "area": "the-meadows",
+      "kind": "house",
+      "style": "Modern",
+      "deal": "rent",
+      "price": 4450,
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2500,
+      "lot": 13000,
+      "year": 2024,
+      "parking": 2,
+      "hoa": 0,
+      "tax": 0,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/modern.webp",
+        "images/homes/full/living-fireplace.webp",
+        "images/homes/full/kitchen-wood.webp",
+        "images/homes/full/dining.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This modern home sits on a 13,000 sq ft lot at 237 Meadow Parkway, a short walk from Meadow Park. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 3 bedrooms, including a primary suite with its own bath. Solar panels and a home office come with the house, and the two-car garage keeps winter mornings simple.\n\nBuilt in 2024 and cared for by the same owners for years, it is ready to move in. Ask Hannah for the inspection report and a list of recent work.\n\nCats welcome; dogs by agreement. Rent excludes utilities; a deposit of one month\u0027s rent applies.",
+      "features": [
+        "Solar panels",
+        "Home office",
+        "Garage",
+        "EV charger",
+        "Deck"
+      ],
+      "x": 778.5,
+      "y": 355.8,
+      "agent": "a-price",
+      "listed": "2026-09-14T10:00:00",
+      "available": "2026-11-06T00:00:00",
+      "history": [
+        {
+          "when": "2026-09-14T10:00:00",
+          "event": "Listed",
+          "price": 4450
+        }
+      ],
+      "opens": [],
+      "views": 323,
+      "saves": 68
+    },
+    {
+      "id": "L-1054",
+      "title": "Farmhouse home with a deck",
+      "street": "19 Larch Way",
+      "area": "pine-hollow",
+      "kind": "house",
+      "style": "Farmhouse",
+      "deal": "sale",
+      "price": 720000,
+      "beds": 3,
+      "baths": 2.0,
+      "sqft": 2580,
+      "lot": 12100,
+      "year": 2004,
+      "parking": 1,
+      "hoa": 0,
+      "tax": 8370,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/farmhouse.webp",
+        "images/homes/full/living-fireplace.webp",
+        "images/homes/full/kitchen-wood.webp",
+        "images/homes/full/dining.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This farmhouse home sits on a 12,100 sq ft lot at 19 Larch Way, a short walk from the forest trails. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 3 bedrooms, including a primary suite with its own bath. A deck and a basement come with the house, and the driveway parking keeps winter mornings simple.\n\nBuilt in 2004 and cared for by the same owners for years, it is ready to move in. Ask Daniel for the inspection report and a list of recent work.",
+      "features": [
+        "Deck",
+        "Basement",
+        "Fireplace"
+      ],
+      "x": 121.8,
+      "y": 386.7,
+      "agent": "a-ortega",
+      "listed": "2026-08-31T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-08-31T10:00:00",
+          "event": "Listed",
+          "price": 720000
+        }
+      ],
+      "opens": [],
+      "views": 895,
+      "saves": 55
+    },
+    {
+      "id": "L-1055",
+      "title": "Bright condo near the river path",
+      "street": "188 Mill Lane, Unit PH2",
+      "area": "riverside",
+      "kind": "condo",
+      "style": "Condo",
+      "deal": "sale",
+      "price": 495000,
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 1560,
+      "lot": 0,
+      "year": 2018,
+      "parking": 1,
+      "hoa": 405,
+      "tax": 5890,
+      "status": "pending",
+      "featured": false,
+      "photos": [
+        "images/homes/full/condo.webp",
+        "images/homes/full/condo-living.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "A 3-bedroom condo at 188 Mill Lane with a bright living room and a parking space. The kitchen has stone counters and full-size appliances.\n\nExtras include an elevator and a secure entrance, and the river path is a few minutes away on foot.\n\nMonthly fees of $405 include water, building insurance and upkeep of the common areas.",
+      "features": [
+        "Parking space",
+        "Elevator",
+        "Gym",
+        "Concierge"
+      ],
+      "x": 315.7,
+      "y": 405.1,
+      "agent": "a-reed",
+      "listed": "2026-09-04T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-09-04T10:00:00",
+          "event": "Listed",
+          "price": 495000
+        },
+        {
+          "when": "2026-09-21T10:00:00",
+          "event": "Under offer",
+          "price": 495000
+        }
+      ],
+      "opens": [],
+      "views": 324,
+      "saves": 55
+    },
+    {
+      "id": "L-1056",
+      "title": "Family waterfront on a quiet street",
+      "street": "64 Bayview Drive",
+      "area": "north-point",
+      "kind": "house",
+      "style": "Waterfront",
+      "deal": "sale",
+      "price": 1450000,
+      "beds": 3,
+      "baths": 2.0,
+      "sqft": 2390,
+      "lot": 14000,
+      "year": 2016,
+      "parking": 2,
+      "hoa": 0,
+      "tax": 16480,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/waterfront.webp",
+        "images/homes/full/living-fireplace.webp",
+        "images/homes/full/kitchen-wood.webp",
+        "images/homes/full/dining.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/kids-room.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This waterfront home sits on a 14,000 sq ft lot at 64 Bayview Drive, a short walk from the marina. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 3 bedrooms, including a primary suite with its own bath. A waterfront setting and a private dock come with the house, and the two-car garage keeps winter mornings simple.\n\nBuilt in 2016 and cared for by the same owners for years, it is ready to move in. Ask Owen for the inspection report and a list of recent work.",
+      "features": [
+        "Waterfront",
+        "Private dock",
+        "Garage",
+        "EV charger",
+        "Deck"
+      ],
+      "x": 810.9,
+      "y": 124,
+      "agent": "a-fitzgerald",
+      "listed": "2026-10-02T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-10-02T10:00:00",
+          "event": "Listed",
+          "price": 1450000
+        }
+      ],
+      "opens": [],
+      "views": 424,
+      "saves": 52
+    },
+    {
+      "id": "L-1057",
+      "title": "Family cottage on a quiet street",
+      "street": "172 Fern Lane",
+      "area": "pine-hollow",
+      "kind": "house",
+      "style": "Cottage",
+      "deal": "sale",
+      "price": 970000,
+      "beds": 4,
+      "baths": 3.0,
+      "sqft": 3020,
+      "lot": 9800,
+      "year": 2016,
+      "parking": 2,
+      "hoa": 0,
+      "tax": 10770,
+      "status": "active",
+      "featured": true,
+      "photos": [
+        "images/homes/full/cottage.webp",
+        "images/homes/full/living-bright.webp",
+        "images/homes/full/kitchen-wood.webp",
+        "images/homes/full/sunroom.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/kids-room.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This cottage home sits on a 9,800 sq ft lot at 172 Fern Lane, a short walk from the forest trails. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 4 bedrooms, including a primary suite with its own bath. A mudroom and a garage come with the house, and the two-car garage keeps winter mornings simple.\n\nBuilt in 2016 and cared for by the same owners for years, it is ready to move in. Ask Daniel for the inspection report and a list of recent work.",
+      "features": [
+        "Mudroom",
+        "Garage",
+        "Hardwood floors"
+      ],
+      "x": 100.4,
+      "y": 327.9,
+      "agent": "a-ortega",
+      "listed": "2026-09-23T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-09-23T10:00:00",
+          "event": "Listed",
+          "price": 970000
+        }
+      ],
+      "opens": [
+        {
+          "date": "2026-10-25T00:00:00",
+          "start": "11:00",
+          "end": "13:00"
+        }
+      ],
+      "views": 516,
+      "saves": 57
+    },
+    {
+      "id": "L-1058",
+      "title": "Top-floor condo with views",
+      "street": "10 Prairie Court, Unit 6B",
+      "area": "the-meadows",
+      "kind": "condo",
+      "style": "Condo",
+      "deal": "sale",
+      "price": 380000,
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 1400,
+      "lot": 0,
+      "year": 1998,
+      "parking": 1,
+      "hoa": 390,
+      "tax": 4040,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/condo.webp",
+        "images/homes/full/condo-living.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "A 3-bedroom condo at 10 Prairie Court with a bright living room and a gym. The kitchen has stone counters and full-size appliances.\n\nExtras include in-unit laundry and a secure entrance, and Meadow Park is a few minutes away on foot.\n\nMonthly fees of $390 include water, building insurance and upkeep of the common areas.",
+      "features": [
+        "Gym",
+        "In-unit laundry",
+        "Parking space",
+        "Bike storage"
+      ],
+      "x": 684.7,
+      "y": 413.3,
+      "agent": "a-natarajan",
+      "listed": "2026-09-15T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-09-15T10:00:00",
+          "event": "Listed",
+          "price": 380000
+        }
+      ],
+      "opens": [],
+      "views": 747,
+      "saves": 62
+    },
+    {
+      "id": "L-1059",
+      "title": "Light-filled craftsman near Summit Park",
+      "street": "182 Highfield Avenue",
+      "area": "hillcrest",
+      "kind": "house",
+      "style": "Craftsman",
+      "deal": "rent",
+      "price": 8025,
+      "beds": 5,
+      "baths": 3.5,
+      "sqft": 3000,
+      "lot": 8300,
+      "year": 2016,
+      "parking": 1,
+      "hoa": 0,
+      "tax": 0,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/craftsman.webp",
+        "images/homes/full/living-bright.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/dining.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This craftsman home sits on a 8,300 sq ft lot at 182 Highfield Avenue, a short walk from Summit Park. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 5 bedrooms, including a primary suite with its own bath. Hardwood floors and a basement come with the house, and the driveway parking keeps winter mornings simple.\n\nBuilt in 2016 and cared for by the same owners for years, it is ready to move in. Ask Hannah for the inspection report and a list of recent work.\n\nSorry, no pets. Rent excludes utilities; a deposit of one month\u0027s rent applies.",
+      "features": [
+        "Hardwood floors",
+        "Basement",
+        "Solar panels",
+        "EV charger",
+        "Mudroom"
+      ],
+      "x": 499.6,
+      "y": 174.3,
+      "agent": "a-price",
+      "listed": "2026-10-03T10:00:00",
+      "available": "2026-10-23T00:00:00",
+      "history": [
+        {
+          "when": "2026-10-03T10:00:00",
+          "event": "Listed",
+          "price": 8025
+        }
+      ],
+      "opens": [],
+      "views": 343,
+      "saves": 31
+    },
+    {
+      "id": "L-1060",
+      "title": "3-bedroom farmhouse home",
+      "street": "149 Fern Lane",
+      "area": "pine-hollow",
+      "kind": "house",
+      "style": "Farmhouse",
+      "deal": "sale",
+      "price": 705000,
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2380,
+      "lot": 12800,
+      "year": 2004,
+      "parking": 1,
+      "hoa": 0,
+      "tax": 8540,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/farmhouse.webp",
+        "images/homes/full/living-bright.webp",
+        "images/homes/full/kitchen-wood.webp",
+        "images/homes/full/sunroom.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/kids-room.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This farmhouse home sits on a 12,800 sq ft lot at 149 Fern Lane, a short walk from the forest trails. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 3 bedrooms, including a primary suite with its own bath. A walk-in closet and a home office come with the house, and the driveway parking keeps winter mornings simple.\n\nBuilt in 2004 and cared for by the same owners for years, it is ready to move in. Ask Daniel for the inspection report and a list of recent work.",
+      "features": [
+        "Walk-in closet",
+        "Home office",
+        "Garden"
+      ],
+      "x": 191.7,
+      "y": 319.7,
+      "agent": "a-ortega",
+      "listed": "2026-09-26T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-09-26T10:00:00",
+          "event": "Listed",
+          "price": 705000
+        }
+      ],
+      "opens": [
+        {
+          "date": "2026-10-18T00:00:00",
+          "start": "13:00",
+          "end": "13:00"
+        }
+      ],
+      "views": 660,
+      "saves": 30
+    },
+    {
+      "id": "L-1061",
+      "title": "Light-filled modern near Meadow Park",
+      "street": "47 Sunfield Road",
+      "area": "the-meadows",
+      "kind": "house",
+      "style": "Modern",
+      "deal": "sale",
+      "price": 715000,
+      "beds": 3,
+      "baths": 2.0,
+      "sqft": 2420,
+      "lot": 10100,
+      "year": 2014,
+      "parking": 1,
+      "hoa": 0,
+      "tax": 7130,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/modern.webp",
+        "images/homes/full/living-bright.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/sunroom.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This modern home sits on a 10,100 sq ft lot at 47 Sunfield Road, a short walk from Meadow Park. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 3 bedrooms, including a primary suite with its own bath. A garden and a deck come with the house, and the driveway parking keeps winter mornings simple.\n\nBuilt in 2014 and cared for by the same owners for years, it is ready to move in. Ask Priya for the inspection report and a list of recent work.",
+      "features": [
+        "Garden",
+        "Deck",
+        "Walk-in closet",
+        "Central air",
+        "EV charger"
+      ],
+      "x": 789,
+      "y": 447.2,
+      "agent": "a-natarajan",
+      "listed": "2026-09-16T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-09-16T10:00:00",
+          "event": "Listed",
+          "price": 715000
+        }
+      ],
+      "opens": [],
+      "views": 717,
+      "saves": 27
+    },
+    {
+      "id": "L-1062",
+      "title": "Updated cottage with an EV charger",
+      "street": "179 Fern Lane",
+      "area": "pine-hollow",
+      "kind": "house",
+      "style": "Cottage",
+      "deal": "sale",
+      "price": 725000,
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2540,
+      "lot": 12600,
+      "year": 1912,
+      "parking": 1,
+      "hoa": 0,
+      "tax": 7160,
+      "status": "sold",
+      "featured": false,
+      "photos": [
+        "images/homes/full/cottage.webp",
+        "images/homes/full/living-fireplace.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/dining.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/kids-room.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This cottage home sits on a 12,600 sq ft lot at 179 Fern Lane, a short walk from the forest trails. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 4 bedrooms, including a primary suite with its own bath. A mudroom and an EV charger come with the house, and the driveway parking keeps winter mornings simple.\n\nBuilt in 1912 and cared for by the same owners for years, it is ready to move in. Ask Daniel for the inspection report and a list of recent work.",
+      "features": [
+        "Mudroom",
+        "EV charger",
+        "Central air",
+        "Home office"
+      ],
+      "x": 204.1,
+      "y": 345.5,
+      "agent": "a-ortega",
+      "listed": "2026-08-03T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-08-03T10:00:00",
+          "event": "Listed",
+          "price": 725000
+        },
+        {
+          "when": "2026-09-01T10:00:00",
+          "event": "Sold",
+          "price": 727000
+        }
+      ],
+      "opens": [],
+      "views": 324,
+      "saves": 25
+    },
+    {
+      "id": "L-1063",
+      "title": "Corner condo, 2 bedrooms",
+      "street": "105 Seawall Avenue, Unit 2A",
+      "area": "north-point",
+      "kind": "condo",
+      "style": "Condo",
+      "deal": "sale",
+      "price": 640000,
+      "beds": 2,
+      "baths": 1.5,
+      "sqft": 1230,
+      "lot": 0,
+      "year": 2018,
+      "parking": 1,
+      "hoa": 415,
+      "tax": 6630,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/condo.webp",
+        "images/homes/full/condo-living.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "A 2-bedroom condo at 105 Seawall Avenue with a bright living room and water views. The kitchen has stone counters and full-size appliances.\n\nExtras include a balcony and a secure entrance, and the marina is a few minutes away on foot.\n\nMonthly fees of $415 include water, building insurance and upkeep of the common areas.",
+      "features": [
+        "Water views",
+        "Balcony",
+        "In-unit laundry",
+        "Parking space"
+      ],
+      "x": 874.2,
+      "y": 188.5,
+      "agent": "a-fitzgerald",
+      "listed": "2026-08-10T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-08-10T10:00:00",
+          "event": "Listed",
+          "price": 640000
+        }
+      ],
+      "opens": [],
+      "views": 818,
+      "saves": 8
+    },
+    {
+      "id": "L-1064",
+      "title": "Family contemporary on a quiet street",
+      "street": "60 Summit Drive",
+      "area": "hillcrest",
+      "kind": "house",
+      "style": "Contemporary",
+      "deal": "rent",
+      "price": 6825,
+      "beds": 4,
+      "baths": 3.0,
+      "sqft": 2640,
+      "lot": 12900,
+      "year": 2019,
+      "parking": 1,
+      "hoa": 0,
+      "tax": 0,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/pool-house.webp",
+        "images/homes/full/living-bright.webp",
+        "images/homes/full/kitchen-wood.webp",
+        "images/homes/full/dining.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/kids-room.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This contemporary home sits on a 12,900 sq ft lot at 60 Summit Drive, a short walk from Summit Park. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 4 bedrooms, including a primary suite with its own bath. A pool and solar panels come with the house, and the driveway parking keeps winter mornings simple.\n\nBuilt in 2019 and cared for by the same owners for years, it is ready to move in. Ask Hannah for the inspection report and a list of recent work.\n\nCats welcome; dogs by agreement. Rent excludes utilities; a deposit of one month\u0027s rent applies.",
+      "features": [
+        "Pool",
+        "Solar panels",
+        "Basement",
+        "Garden"
+      ],
+      "x": 390,
+      "y": 150.6,
+      "agent": "a-price",
+      "listed": "2026-10-07T10:00:00",
+      "available": "2026-11-15T00:00:00",
+      "history": [
+        {
+          "when": "2026-10-07T10:00:00",
+          "event": "Listed",
+          "price": 6825
+        }
+      ],
+      "opens": [],
+      "views": 848,
+      "saves": 55
+    },
+    {
+      "id": "L-1065",
+      "title": "Contemporary home with solar panels",
+      "street": "99 Highfield Avenue",
+      "area": "hillcrest",
+      "kind": "house",
+      "style": "Contemporary",
+      "deal": "rent",
+      "price": 9125,
+      "beds": 5,
+      "baths": 3.5,
+      "sqft": 3430,
+      "lot": 12500,
+      "year": 2024,
+      "parking": 1,
+      "hoa": 0,
+      "tax": 0,
+      "status": "rented",
+      "featured": false,
+      "photos": [
+        "images/homes/full/pool-house.webp",
+        "images/homes/full/living-fireplace.webp",
+        "images/homes/full/kitchen-wood.webp",
+        "images/homes/full/sunroom.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/kids-room.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This contemporary home sits on a 12,500 sq ft lot at 99 Highfield Avenue, a short walk from Summit Park. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 5 bedrooms, including a primary suite with its own bath. A pool and hardwood floors come with the house, and the driveway parking keeps winter mornings simple.\n\nBuilt in 2024 and cared for by the same owners for years, it is ready to move in. Ask Grace for the inspection report and a list of recent work.\n\nPets welcome. Rent excludes utilities; a deposit of one month\u0027s rent applies.",
+      "features": [
+        "Pool",
+        "Hardwood floors",
+        "EV charger",
+        "Solar panels"
+      ],
+      "x": 563.1,
+      "y": 145.9,
+      "agent": "a-holloway",
+      "listed": "2026-10-11T10:00:00",
+      "available": "2026-11-15T00:00:00",
+      "history": [
+        {
+          "when": "2026-10-11T10:00:00",
+          "event": "Listed",
+          "price": 9125
+        },
+        {
+          "when": "2026-10-15T10:00:00",
+          "event": "Rented",
+          "price": 9125
+        }
+      ],
+      "opens": [],
+      "views": 379,
+      "saves": 14
+    },
+    {
+      "id": "L-1066",
+      "title": "Updated colonial with a garden",
+      "street": "221 Overlook Way",
+      "area": "hillcrest",
+      "kind": "house",
+      "style": "Colonial",
+      "deal": "sale",
+      "price": 1065000,
+      "beds": 4,
+      "baths": 3.5,
+      "sqft": 2570,
+      "lot": 5900,
+      "year": 1938,
+      "parking": 1,
+      "hoa": 0,
+      "tax": 12840,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/colonial.webp",
+        "images/homes/full/living-bright.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/dining.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/kids-room.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This colonial home sits on a 5,900 sq ft lot at 221 Overlook Way, a short walk from Summit Park. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 4 bedrooms, including a primary suite with its own bath. Hardwood floors and a mudroom come with the house, and the driveway parking keeps winter mornings simple.\n\nBuilt in 1938 and cared for by the same owners for years, it is ready to move in. Ask Grace for the inspection report and a list of recent work.",
+      "features": [
+        "Hardwood floors",
+        "Mudroom",
+        "Basement",
+        "Garden"
+      ],
+      "x": 598.7,
+      "y": 134.3,
+      "agent": "a-holloway",
+      "listed": "2026-08-21T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-08-21T10:00:00",
+          "event": "Listed",
+          "price": 1065000
+        }
+      ],
+      "opens": [],
+      "views": 142,
+      "saves": 58
+    },
+    {
+      "id": "L-1067",
+      "title": "Modern townhouse, move-in ready",
+      "street": "46 Clover Lane",
+      "area": "the-meadows",
+      "kind": "townhouse",
+      "style": "Townhouse",
+      "deal": "sale",
+      "price": 555000,
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2010,
+      "lot": 1700,
+      "year": 2012,
+      "parking": 1,
+      "hoa": 370,
+      "tax": 6590,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/townhouses.webp",
+        "images/homes/full/living-bright.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/dining.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/kids-room.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "A 3-bedroom townhouse at 46 Clover Lane, close to Meadow Park. The open main floor has the living room, dining area and a kitchen with plenty of storage.\n\nThe bedrooms are upstairs, with 2.5 baths in all. A patio and an EV charger are included, and the association looks after the outside.\n\nBuilt in 2012. Monthly fees of $370 cover exterior upkeep, snow removal and the shared green.",
+      "features": [
+        "Patio",
+        "EV charger",
+        "Walk-in closet",
+        "Hardwood floors"
+      ],
+      "x": 697.4,
+      "y": 382.5,
+      "agent": "a-natarajan",
+      "listed": "2026-10-14T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-10-14T10:00:00",
+          "event": "Listed",
+          "price": 555000
+        }
+      ],
+      "opens": [
+        {
+          "date": "2026-10-22T00:00:00",
+          "start": "13:00",
+          "end": "15:00"
+        }
+      ],
+      "views": 393,
+      "saves": 40
+    },
+    {
+      "id": "L-1068",
+      "title": "2-bedroom condo with a gym",
+      "street": "182 Harvest Drive, Unit 2A",
+      "area": "the-meadows",
+      "kind": "condo",
+      "style": "Condo",
+      "deal": "sale",
+      "price": 315000,
+      "beds": 2,
+      "baths": 1.5,
+      "sqft": 1180,
+      "lot": 0,
+      "year": 2012,
+      "parking": 1,
+      "hoa": 375,
+      "tax": 3540,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/condo.webp",
+        "images/homes/full/condo-living.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "A 2-bedroom condo at 182 Harvest Drive with a bright living room and a parking space. The kitchen has stone counters and full-size appliances.\n\nExtras include an elevator and a secure entrance, and Meadow Park is a few minutes away on foot.\n\nMonthly fees of $375 include water, building insurance and upkeep of the common areas.",
+      "features": [
+        "Parking space",
+        "Elevator",
+        "Balcony",
+        "Gym"
+      ],
+      "x": 742.1,
+      "y": 413.8,
+      "agent": "a-price",
+      "listed": "2026-09-21T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-09-21T10:00:00",
+          "event": "Listed",
+          "price": 315000
+        }
+      ],
+      "opens": [],
+      "views": 715,
+      "saves": 19
+    },
+    {
+      "id": "L-1069",
+      "title": "Light-filled colonial near the quay",
+      "street": "141 Chandler Row",
+      "area": "old-harbor",
+      "kind": "house",
+      "style": "Colonial",
+      "deal": "sale",
+      "price": 1085000,
+      "beds": 4,
+      "baths": 3.0,
+      "sqft": 2760,
+      "lot": 8700,
+      "year": 2021,
+      "parking": 1,
+      "hoa": 0,
+      "tax": 10740,
+      "status": "active",
+      "featured": true,
+      "photos": [
+        "images/homes/full/colonial.webp",
+        "images/homes/full/living-bright.webp",
+        "images/homes/full/kitchen-wood.webp",
+        "images/homes/full/dining.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/kids-room.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This colonial home sits on a 8,700 sq ft lot at 141 Chandler Row, a short walk from the quay. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 4 bedrooms, including a primary suite with its own bath. Hardwood floors and a basement come with the house, and the driveway parking keeps winter mornings simple.\n\nBuilt in 2021 and cared for by the same owners for years, it is ready to move in. Ask Owen for the inspection report and a list of recent work.",
+      "features": [
+        "Hardwood floors",
+        "Basement",
+        "Fireplace",
+        "Deck"
+      ],
+      "x": 607.8,
+      "y": 454.8,
+      "agent": "a-fitzgerald",
+      "listed": "2026-08-05T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-08-05T10:00:00",
+          "event": "Listed",
+          "price": 1085000
+        }
+      ],
+      "opens": [
+        {
+          "date": "2026-10-22T00:00:00",
+          "start": "13:00",
+          "end": "15:00"
+        }
+      ],
+      "views": 806,
+      "saves": 35
+    },
+    {
+      "id": "L-1070",
+      "title": "Townhouse near Summit Park",
+      "street": "235 Overlook Way",
+      "area": "hillcrest",
+      "kind": "townhouse",
+      "style": "Townhouse",
+      "deal": "rent",
+      "price": 6450,
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2330,
+      "lot": 2700,
+      "year": 2006,
+      "parking": 1,
+      "hoa": 460,
+      "tax": 0,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/townhouses.webp",
+        "images/homes/full/living-bright.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/dining.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/kids-room.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "A 4-bedroom townhouse at 235 Overlook Way, close to Summit Park. The open main floor has the living room, dining area and a kitchen with plenty of storage.\n\nThe bedrooms are upstairs, with 2.5 baths in all. Central air and a walk-in closet are included, and the association looks after the outside.\n\nBuilt in 2006. Monthly fees of $460 cover exterior upkeep, snow removal and the shared green.\n\nPets welcome. Rent excludes utilities; a deposit of one month\u0027s rent applies.",
+      "features": [
+        "Central air",
+        "Walk-in closet",
+        "Patio",
+        "Garage",
+        "EV charger"
+      ],
+      "x": 459.2,
+      "y": 164.3,
+      "agent": "a-price",
+      "listed": "2026-08-07T10:00:00",
+      "available": "2026-11-15T00:00:00",
+      "history": [
+        {
+          "when": "2026-08-07T10:00:00",
+          "event": "Listed",
+          "price": 6450
+        }
+      ],
+      "opens": [],
+      "views": 800,
+      "saves": 21
+    },
+    {
+      "id": "L-1071",
+      "title": "Modern townhouse, move-in ready",
+      "street": "178 Ferry Road",
+      "area": "riverside",
+      "kind": "townhouse",
+      "style": "Townhouse",
+      "deal": "sale",
+      "price": 490000,
+      "beds": 2,
+      "baths": 1.5,
+      "sqft": 1620,
+      "lot": 2300,
+      "year": 2012,
+      "parking": 1,
+      "hoa": 470,
+      "tax": 4800,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/townhouses.webp",
+        "images/homes/full/living-bright.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/dining.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/kids-room.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "A 2-bedroom townhouse at 178 Ferry Road, close to the river path. The open main floor has the living room, dining area and a kitchen with plenty of storage.\n\nThe bedrooms are upstairs, with 1.5 baths in all. A patio and hardwood floors are included, and the association looks after the outside.\n\nBuilt in 2012. Monthly fees of $470 cover exterior upkeep, snow removal and the shared green.",
+      "features": [
+        "Patio",
+        "Hardwood floors",
+        "Home office",
+        "EV charger"
+      ],
+      "x": 376.3,
+      "y": 431.7,
+      "agent": "a-natarajan",
+      "listed": "2026-09-29T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-09-29T10:00:00",
+          "event": "Listed",
+          "price": 515000
+        },
+        {
+          "when": "2026-10-13T10:00:00",
+          "event": "Price cut",
+          "price": 490000
+        }
+      ],
+      "opens": [
+        {
+          "date": "2026-10-18T00:00:00",
+          "start": "11:00",
+          "end": "15:00"
+        }
+      ],
+      "views": 832,
+      "saves": 20
+    },
+    {
+      "id": "L-1072",
+      "title": "Family ranch on a quiet street",
+      "street": "63 Sunfield Road",
+      "area": "the-meadows",
+      "kind": "house",
+      "style": "Ranch",
+      "deal": "sale",
+      "price": 600000,
+      "beds": 3,
+      "baths": 2.0,
+      "sqft": 2320,
+      "lot": 5700,
+      "year": 1938,
+      "parking": 2,
+      "hoa": 0,
+      "tax": 7120,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/ranch.webp",
+        "images/homes/full/living-bright.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/sunroom.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This ranch home sits on a 5,700 sq ft lot at 63 Sunfield Road, a short walk from Meadow Park. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 3 bedrooms, including a primary suite with its own bath. A fireplace and a garage come with the house, and the two-car garage keeps winter mornings simple.\n\nBuilt in 1938 and cared for by the same owners for years, it is ready to move in. Ask Daniel for the inspection report and a list of recent work.",
+      "features": [
+        "Fireplace",
+        "Garage",
+        "Hardwood floors"
+      ],
+      "x": 806.4,
+      "y": 413.6,
+      "agent": "a-ortega",
+      "listed": "2026-08-19T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-08-19T10:00:00",
+          "event": "Listed",
+          "price": 600000
+        }
+      ],
+      "opens": [
+        {
+          "date": "2026-10-25T00:00:00",
+          "start": "11:00",
+          "end": "13:00"
+        }
+      ],
+      "views": 348,
+      "saves": 60
+    },
+    {
+      "id": "L-1073",
+      "title": "Updated craftsman with hardwood floors",
+      "street": "73 Bridge Street",
+      "area": "riverside",
+      "kind": "house",
+      "style": "Craftsman",
+      "deal": "sale",
+      "price": 760000,
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2490,
+      "lot": 5500,
+      "year": 1996,
+      "parking": 1,
+      "hoa": 0,
+      "tax": 7370,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/craftsman.webp",
+        "images/homes/full/living-bright.webp",
+        "images/homes/full/kitchen-wood.webp",
+        "images/homes/full/sunroom.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This craftsman home sits on a 5,500 sq ft lot at 73 Bridge Street, a short walk from the river path. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 3 bedrooms, including a primary suite with its own bath. Hardwood floors and a mudroom come with the house, and the driveway parking keeps winter mornings simple.\n\nBuilt in 1996 and cared for by the same owners for years, it is ready to move in. Ask Priya for the inspection report and a list of recent work.",
+      "features": [
+        "Hardwood floors",
+        "Mudroom",
+        "Fireplace"
+      ],
+      "x": 253.4,
+      "y": 442.7,
+      "agent": "a-natarajan",
+      "listed": "2026-08-18T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-08-18T10:00:00",
+          "event": "Listed",
+          "price": 760000
+        }
+      ],
+      "opens": [
+        {
+          "date": "2026-10-19T00:00:00",
+          "start": "11:00",
+          "end": "15:00"
+        }
+      ],
+      "views": 196,
+      "saves": 62
+    },
+    {
+      "id": "L-1074",
+      "title": "5-bedroom waterfront home",
+      "street": "173 Gull Lane",
+      "area": "north-point",
+      "kind": "house",
+      "style": "Waterfront",
+      "deal": "sale",
+      "price": 2180000,
+      "beds": 5,
+      "baths": 3.5,
+      "sqft": 3150,
+      "lot": 11600,
+      "year": 1938,
+      "parking": 1,
+      "hoa": 0,
+      "tax": 23020,
+      "status": "active",
+      "featured": true,
+      "photos": [
+        "images/homes/full/waterfront.webp",
+        "images/homes/full/living-bright.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/sunroom.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/kids-room.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This waterfront home sits on a 11,600 sq ft lot at 173 Gull Lane, a short walk from the marina. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 5 bedrooms, including a primary suite with its own bath. A waterfront setting and a private dock come with the house, and the driveway parking keeps winter mornings simple.\n\nBuilt in 1938 and cared for by the same owners for years, it is ready to move in. Ask Grace for the inspection report and a list of recent work.",
+      "features": [
+        "Waterfront",
+        "Private dock",
+        "Solar panels",
+        "EV charger",
+        "Hardwood floors"
+      ],
+      "x": 900.8,
+      "y": 159.3,
+      "agent": "a-holloway",
+      "listed": "2026-08-05T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-08-05T10:00:00",
+          "event": "Listed",
+          "price": 2180000
+        }
+      ],
+      "opens": [],
+      "views": 866,
+      "saves": 56
+    },
+    {
+      "id": "L-1075",
+      "title": "4-bedroom craftsman home",
+      "street": "225 Clover Lane",
+      "area": "the-meadows",
+      "kind": "house",
+      "style": "Craftsman",
+      "deal": "rent",
+      "price": 4600,
+      "beds": 4,
+      "baths": 3.0,
+      "sqft": 2960,
+      "lot": 10300,
+      "year": 2021,
+      "parking": 2,
+      "hoa": 0,
+      "tax": 0,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/craftsman.webp",
+        "images/homes/full/living-fireplace.webp",
+        "images/homes/full/kitchen-wood.webp",
+        "images/homes/full/sunroom.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/kids-room.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This craftsman home sits on a 10,300 sq ft lot at 225 Clover Lane, a short walk from Meadow Park. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 4 bedrooms, including a primary suite with its own bath. Central air and hardwood floors come with the house, and the two-car garage keeps winter mornings simple.\n\nBuilt in 2021 and cared for by the same owners for years, it is ready to move in. Ask Hannah for the inspection report and a list of recent work.\n\nPets welcome. Rent excludes utilities; a deposit of one month\u0027s rent applies.",
+      "features": [
+        "Central air",
+        "Hardwood floors",
+        "Walk-in closet",
+        "Garage",
+        "Fireplace"
+      ],
+      "x": 716.4,
+      "y": 425.4,
+      "agent": "a-price",
+      "listed": "2026-09-06T10:00:00",
+      "available": "2026-11-30T00:00:00",
+      "history": [
+        {
+          "when": "2026-09-06T10:00:00",
+          "event": "Listed",
+          "price": 4600
+        }
+      ],
+      "opens": [],
+      "views": 835,
+      "saves": 12
+    },
+    {
+      "id": "L-1076",
+      "title": "Warehouse loft with a roof terrace",
+      "street": "196 Pier Road, Unit 3B",
+      "area": "old-harbor",
+      "kind": "loft",
+      "style": "Loft",
+      "deal": "rent",
+      "price": 2575,
+      "beds": 1,
+      "baths": 1.0,
+      "sqft": 1040,
+      "lot": 0,
+      "year": 1915,
+      "parking": 1,
+      "hoa": 275,
+      "tax": 0,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/loft-building.webp",
+        "images/homes/full/loft-living.webp",
+        "images/homes/full/kitchen-wood.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "A converted warehouse loft at 196 Pier Road: tall windows, timber beams and an open plan that is easy to make your own.\n\nThere is one bedroom and 1 bath, plus in-unit laundry and bike storage.\n\nBuilt as a rope works in 1915 and converted to homes in 2009. The quay is at the end of the street.\n\nCats welcome; dogs by agreement. Rent excludes utilities; a deposit of one month\u0027s rent applies.",
+      "features": [
+        "In-unit laundry",
+        "Bike storage",
+        "Parking space",
+        "Roof terrace"
+      ],
+      "x": 462.5,
+      "y": 452,
+      "agent": "a-price",
+      "listed": "2026-09-28T10:00:00",
+      "available": "2026-10-30T00:00:00",
+      "history": [
+        {
+          "when": "2026-09-28T10:00:00",
+          "event": "Listed",
+          "price": 2575
+        }
+      ],
+      "opens": [],
+      "views": 336,
+      "saves": 43
+    },
+    {
+      "id": "L-1077",
+      "title": "Light-filled cottage near the forest trails",
+      "street": "7 Larch Way",
+      "area": "pine-hollow",
+      "kind": "house",
+      "style": "Cottage",
+      "deal": "rent",
+      "price": 4350,
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2310,
+      "lot": 14600,
+      "year": 2004,
+      "parking": 2,
+      "hoa": 0,
+      "tax": 0,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/cottage.webp",
+        "images/homes/full/living-bright.webp",
+        "images/homes/full/kitchen-wood.webp",
+        "images/homes/full/dining.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This cottage home sits on a 14,600 sq ft lot at 7 Larch Way, a short walk from the forest trails. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 3 bedrooms, including a primary suite with its own bath. A garden and a basement come with the house, and the two-car garage keeps winter mornings simple.\n\nBuilt in 2004 and cared for by the same owners for years, it is ready to move in. Ask Daniel for the inspection report and a list of recent work.\n\nCats welcome; dogs by agreement. Rent excludes utilities; a deposit of one month\u0027s rent applies.",
+      "features": [
+        "Garden",
+        "Basement",
+        "Garage",
+        "Walk-in closet"
+      ],
+      "x": 92.8,
+      "y": 297,
+      "agent": "a-ortega",
+      "listed": "2026-08-21T10:00:00",
+      "available": "2026-10-23T00:00:00",
+      "history": [
+        {
+          "when": "2026-08-21T10:00:00",
+          "event": "Listed",
+          "price": 4350
+        }
+      ],
+      "opens": [],
+      "views": 289,
+      "saves": 57
+    },
+    {
+      "id": "L-1078",
+      "title": "Bright condo near the marina",
+      "street": "234 Harbor Point, Unit 6B",
+      "area": "north-point",
+      "kind": "condo",
+      "style": "Condo",
+      "deal": "sale",
+      "price": 680000,
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 1340,
+      "lot": 0,
+      "year": 2012,
+      "parking": 0,
+      "hoa": 220,
+      "tax": 7500,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/condo.webp",
+        "images/homes/full/condo-living.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "A 3-bedroom condo at 234 Harbor Point with a bright living room and water views. The kitchen has stone counters and full-size appliances.\n\nExtras include a balcony and a secure entrance, and the marina is a few minutes away on foot.\n\nMonthly fees of $220 include water, building insurance and upkeep of the common areas.",
+      "features": [
+        "Water views",
+        "Balcony",
+        "Bike storage",
+        "Central air"
+      ],
+      "x": 860.2,
+      "y": 221.4,
+      "agent": "a-holloway",
+      "listed": "2026-09-26T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-09-26T10:00:00",
+          "event": "Listed",
+          "price": 680000
+        }
+      ],
+      "opens": [],
+      "views": 855,
+      "saves": 37
+    },
+    {
+      "id": "L-1079",
+      "title": "End-unit townhouse with hardwood floors",
+      "street": "205 Tidewater Way",
+      "area": "old-harbor",
+      "kind": "townhouse",
+      "style": "Townhouse",
+      "deal": "sale",
+      "price": 575000,
+      "beds": 2,
+      "baths": 1.5,
+      "sqft": 1500,
+      "lot": 1700,
+      "year": 1998,
+      "parking": 1,
+      "hoa": 335,
+      "tax": 6420,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/townhouses.webp",
+        "images/homes/full/living-bright.webp",
+        "images/homes/full/kitchen-wood.webp",
+        "images/homes/full/dining.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "A 2-bedroom townhouse at 205 Tidewater Way, close to the quay. The open main floor has the living room, dining area and a kitchen with plenty of storage.\n\nThe bedrooms are upstairs, with 1.5 baths in all. A garage and a home office are included, and the association looks after the outside.\n\nBuilt in 1998. Monthly fees of $335 cover exterior upkeep, snow removal and the shared green.",
+      "features": [
+        "Garage",
+        "Home office",
+        "EV charger",
+        "Hardwood floors"
+      ],
+      "x": 488.8,
+      "y": 449.2,
+      "agent": "a-reed",
+      "listed": "2026-10-10T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-10-10T10:00:00",
+          "event": "Listed",
+          "price": 575000
+        }
+      ],
+      "opens": [],
+      "views": 575,
+      "saves": 22
+    },
+    {
+      "id": "L-1080",
+      "title": "Light-filled modern near the marina",
+      "street": "188 Marina Way",
+      "area": "north-point",
+      "kind": "house",
+      "style": "Modern",
+      "deal": "sale",
+      "price": 1260000,
+      "beds": 3,
+      "baths": 2.0,
+      "sqft": 2600,
+      "lot": 10900,
+      "year": 2022,
+      "parking": 1,
+      "hoa": 0,
+      "tax": 13040,
+      "status": "active",
+      "featured": true,
+      "photos": [
+        "images/homes/full/modern.webp",
+        "images/homes/full/living-fireplace.webp",
+        "images/homes/full/kitchen-wood.webp",
+        "images/homes/full/dining.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This modern home sits on a 10,900 sq ft lot at 188 Marina Way, a short walk from the marina. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 3 bedrooms, including a primary suite with its own bath. Solar panels and a walk-in closet come with the house, and the driveway parking keeps winter mornings simple.\n\nBuilt in 2022 and cared for by the same owners for years, it is ready to move in. Ask Grace for the inspection report and a list of recent work.",
+      "features": [
+        "Solar panels",
+        "Walk-in closet",
+        "Basement"
+      ],
+      "x": 792,
+      "y": 203.9,
+      "agent": "a-holloway",
+      "listed": "2026-10-13T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-10-13T10:00:00",
+          "event": "Listed",
+          "price": 1305000
+        },
+        {
+          "when": "2026-10-18T10:00:00",
+          "event": "Price cut",
+          "price": 1260000
+        }
+      ],
+      "opens": [],
+      "views": 537,
+      "saves": 26
+    },
+    {
+      "id": "L-1081",
+      "title": "Open-plan loft by the quay",
+      "street": "36 Pier Road, Unit 1C",
+      "area": "old-harbor",
+      "kind": "loft",
+      "style": "Loft",
+      "deal": "sale",
+      "price": 490000,
+      "beds": 1,
+      "baths": 1.0,
+      "sqft": 1040,
+      "lot": 0,
+      "year": 1888,
+      "parking": 1,
+      "hoa": 295,
+      "tax": 5780,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/loft-building.webp",
+        "images/homes/full/loft-living.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "A converted warehouse loft at 36 Pier Road: tall windows, timber beams and an open plan that is easy to make your own.\n\nThere is one bedroom and 1 bath, plus a parking space and a roof terrace.\n\nBuilt as a rope works in 1888 and converted to homes in 2009. The quay is at the end of the street.",
+      "features": [
+        "Parking space",
+        "Roof terrace",
+        "Bike storage",
+        "Exposed brick",
+        "Elevator"
+      ],
+      "x": 531.3,
+      "y": 429.9,
+      "agent": "a-reed",
+      "listed": "2026-07-29T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-07-29T10:00:00",
+          "event": "Listed",
+          "price": 490000
+        }
+      ],
+      "opens": [],
+      "views": 586,
+      "saves": 32
+    },
+    {
+      "id": "L-1082",
+      "title": "Top-floor condo with views",
+      "street": "212 Ropewalk Lane, Unit 4C",
+      "area": "old-harbor",
+      "kind": "condo",
+      "style": "Condo",
+      "deal": "sale",
+      "price": 595000,
+      "beds": 2,
+      "baths": 1.5,
+      "sqft": 1220,
+      "lot": 0,
+      "year": 2022,
+      "parking": 1,
+      "hoa": 360,
+      "tax": 7380,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/condo.webp",
+        "images/homes/full/condo-living.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "A 2-bedroom condo at 212 Ropewalk Lane with a bright living room and bike storage. The kitchen has stone counters and full-size appliances.\n\nExtras include in-unit laundry and a secure entrance, and the quay is a few minutes away on foot.\n\nMonthly fees of $360 include water, building insurance and upkeep of the common areas.",
+      "features": [
+        "Bike storage",
+        "In-unit laundry",
+        "Gym",
+        "Parking space"
+      ],
+      "x": 539.5,
+      "y": 479.2,
+      "agent": "a-price",
+      "listed": "2026-08-19T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-08-19T10:00:00",
+          "event": "Listed",
+          "price": 595000
+        }
+      ],
+      "opens": [],
+      "views": 445,
+      "saves": 66
+    },
+    {
+      "id": "L-1083",
+      "title": "3-bedroom craftsman home",
+      "street": "123 Otter Way",
+      "area": "riverside",
+      "kind": "house",
+      "style": "Craftsman",
+      "deal": "sale",
+      "price": 885000,
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2480,
+      "lot": 4800,
+      "year": 2021,
+      "parking": 2,
+      "hoa": 0,
+      "tax": 10840,
+      "status": "pending",
+      "featured": false,
+      "photos": [
+        "images/homes/full/craftsman.webp",
+        "images/homes/full/living-bright.webp",
+        "images/homes/full/kitchen-wood.webp",
+        "images/homes/full/dining.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This craftsman home sits on a 4,800 sq ft lot at 123 Otter Way, a short walk from the river path. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 3 bedrooms, including a primary suite with its own bath. A fireplace and a garage come with the house, and the two-car garage keeps winter mornings simple.\n\nBuilt in 2021 and cared for by the same owners for years, it is ready to move in. Ask Marcus for the inspection report and a list of recent work.",
+      "features": [
+        "Fireplace",
+        "Garage",
+        "Central air"
+      ],
+      "x": 333.6,
+      "y": 379,
+      "agent": "a-reed",
+      "listed": "2026-09-09T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-09-09T10:00:00",
+          "event": "Listed",
+          "price": 920000
+        },
+        {
+          "when": "2026-10-09T10:00:00",
+          "event": "Price cut",
+          "price": 885000
+        },
+        {
+          "when": "2026-10-15T10:00:00",
+          "event": "Under offer",
+          "price": 885000
+        }
+      ],
+      "opens": [],
+      "views": 104,
+      "saves": 16
+    },
+    {
+      "id": "L-1084",
+      "title": "2-bedroom townhouse",
+      "street": "95 Willow Bank",
+      "area": "riverside",
+      "kind": "townhouse",
+      "style": "Townhouse",
+      "deal": "sale",
+      "price": 530000,
+      "beds": 2,
+      "baths": 1.5,
+      "sqft": 1570,
+      "lot": 2300,
+      "year": 2012,
+      "parking": 1,
+      "hoa": 405,
+      "tax": 5170,
+      "status": "sold",
+      "featured": false,
+      "photos": [
+        "images/homes/full/townhouses.webp",
+        "images/homes/full/living-bright.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/dining.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "A 2-bedroom townhouse at 95 Willow Bank, close to the river path. The open main floor has the living room, dining area and a kitchen with plenty of storage.\n\nThe bedrooms are upstairs, with 1.5 baths in all. Central air and a patio are included, and the association looks after the outside.\n\nBuilt in 2012. Monthly fees of $405 cover exterior upkeep, snow removal and the shared green.",
+      "features": [
+        "Central air",
+        "Patio",
+        "Walk-in closet",
+        "Hardwood floors",
+        "Garage"
+      ],
+      "x": 268.1,
+      "y": 375.3,
+      "agent": "a-reed",
+      "listed": "2026-09-28T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-09-28T10:00:00",
+          "event": "Listed",
+          "price": 530000
+        },
+        {
+          "when": "2026-10-15T10:00:00",
+          "event": "Sold",
+          "price": 544000
+        }
+      ],
+      "opens": [],
+      "views": 890,
+      "saves": 61
+    },
+    {
+      "id": "L-1085",
+      "title": "Townhouse near the river path",
+      "street": "104 Bridge Street",
+      "area": "riverside",
+      "kind": "townhouse",
+      "style": "Townhouse",
+      "deal": "sale",
+      "price": 595000,
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 1970,
+      "lot": 1700,
+      "year": 2018,
+      "parking": 1,
+      "hoa": 285,
+      "tax": 6210,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/townhouses.webp",
+        "images/homes/full/living-bright.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/dining.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "A 3-bedroom townhouse at 104 Bridge Street, close to the river path. The open main floor has the living room, dining area and a kitchen with plenty of storage.\n\nThe bedrooms are upstairs, with 2.5 baths in all. A garage and a patio are included, and the association looks after the outside.\n\nBuilt in 2018. Monthly fees of $285 cover exterior upkeep, snow removal and the shared green.",
+      "features": [
+        "Garage",
+        "Patio",
+        "EV charger"
+      ],
+      "x": 328.3,
+      "y": 472.1,
+      "agent": "a-natarajan",
+      "listed": "2026-08-21T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-08-21T10:00:00",
+          "event": "Listed",
+          "price": 595000
+        }
+      ],
+      "opens": [],
+      "views": 435,
+      "saves": 45
+    },
+    {
+      "id": "L-1086",
+      "title": "Corner loft with tall windows",
+      "street": "49 Pier Road, Unit 2D",
+      "area": "old-harbor",
+      "kind": "loft",
+      "style": "Loft",
+      "deal": "sale",
+      "price": 675000,
+      "beds": 2,
+      "baths": 1.5,
+      "sqft": 1530,
+      "lot": 0,
+      "year": 1915,
+      "parking": 0,
+      "hoa": 325,
+      "tax": 8430,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/loft-building.webp",
+        "images/homes/full/loft-living.webp",
+        "images/homes/full/kitchen-wood.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "A converted warehouse loft at 49 Pier Road: tall windows, timber beams and an open plan that is easy to make your own.\n\nThere are 2 bedrooms and 1.5 baths, plus a roof terrace and in-unit laundry.\n\nBuilt as a rope works in 1915 and converted to homes in 2009. The quay is at the end of the street.",
+      "features": [
+        "Roof terrace",
+        "In-unit laundry",
+        "Exposed brick"
+      ],
+      "x": 578.6,
+      "y": 439.8,
+      "agent": "a-price",
+      "listed": "2026-08-10T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-08-10T10:00:00",
+          "event": "Listed",
+          "price": 675000
+        }
+      ],
+      "opens": [
+        {
+          "date": "2026-10-24T00:00:00",
+          "start": "11:00",
+          "end": "15:00"
+        }
+      ],
+      "views": 680,
+      "saves": 40
+    },
+    {
+      "id": "L-1087",
+      "title": "Modern townhouse, move-in ready",
+      "street": "167 Pier Road",
+      "area": "old-harbor",
+      "kind": "townhouse",
+      "style": "Townhouse",
+      "deal": "rent",
+      "price": 3975,
+      "beds": 2,
+      "baths": 1.5,
+      "sqft": 1540,
+      "lot": 1800,
+      "year": 2006,
+      "parking": 1,
+      "hoa": 195,
+      "tax": 0,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/townhouses.webp",
+        "images/homes/full/living-bright.webp",
+        "images/homes/full/kitchen-wood.webp",
+        "images/homes/full/dining.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/office.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "A 2-bedroom townhouse at 167 Pier Road, close to the quay. The open main floor has the living room, dining area and a kitchen with plenty of storage.\n\nThe bedrooms are upstairs, with 1.5 baths in all. Central air and a walk-in closet are included, and the association looks after the outside.\n\nBuilt in 2006. Monthly fees of $195 cover exterior upkeep, snow removal and the shared green.\n\nCats welcome; dogs by agreement. Rent excludes utilities; a deposit of one month\u0027s rent applies.",
+      "features": [
+        "Central air",
+        "Walk-in closet",
+        "Garage",
+        "Home office",
+        "Hardwood floors"
+      ],
+      "x": 554.6,
+      "y": 450.6,
+      "agent": "a-price",
+      "listed": "2026-08-19T10:00:00",
+      "available": "2026-10-30T00:00:00",
+      "history": [
+        {
+          "when": "2026-08-19T10:00:00",
+          "event": "Listed",
+          "price": 3975
+        }
+      ],
+      "opens": [],
+      "views": 139,
+      "saves": 8
+    },
+    {
+      "id": "L-1088",
+      "title": "Family modern on a quiet street",
+      "street": "81 Prairie Court",
+      "area": "the-meadows",
+      "kind": "house",
+      "style": "Modern",
+      "deal": "sale",
+      "price": 815000,
+      "beds": 5,
+      "baths": 3.0,
+      "sqft": 3070,
+      "lot": 12700,
+      "year": 2022,
+      "parking": 1,
+      "hoa": 0,
+      "tax": 8960,
+      "status": "active",
+      "featured": false,
+      "photos": [
+        "images/homes/full/modern.webp",
+        "images/homes/full/living-fireplace.webp",
+        "images/homes/full/kitchen-white.webp",
+        "images/homes/full/dining.webp",
+        "images/homes/full/bedroom.webp",
+        "images/homes/full/kids-room.webp",
+        "images/homes/full/bathroom.webp"
+      ],
+      "description": "This modern home sits on a 12,700 sq ft lot at 81 Prairie Court, a short walk from Meadow Park. The main floor flows from a bright living room to a kitchen with an island and a dining area that opens to the garden.\n\nUpstairs are 5 bedrooms, including a primary suite with its own bath. A home office and solar panels come with the house, and the driveway parking keeps winter mornings simple.\n\nBuilt in 2022 and cared for by the same owners for years, it is ready to move in. Ask Priya for the inspection report and a list of recent work.",
+      "features": [
+        "Home office",
+        "Solar panels",
+        "EV charger"
+      ],
+      "x": 733.4,
+      "y": 463.1,
+      "agent": "a-natarajan",
+      "listed": "2026-08-30T10:00:00",
+      "available": null,
+      "history": [
+        {
+          "when": "2026-08-30T10:00:00",
+          "event": "Listed",
+          "price": 815000
+        }
+      ],
+      "opens": [],
+      "views": 623,
+      "saves": 26
+    }
+  ],
+  "leads": [
+    {
+      "id": "LD-1001",
+      "kind": "viewing",
+      "listing": "L-1041",
+      "name": "Maya Collins",
+      "email": "maya.collins@example.com",
+      "phone": "(555) 014-2280",
+      "message": "We have a dog. Is the back yard fenced?",
+      "prefer": "Sat, Oct 17 at 11:00 AM",
+      "address": "",
+      "details": "2026-10-17T11:00",
+      "status": "new",
+      "agent": "a-ortega",
+      "created": "2026-10-16T07:42:00",
+      "notes": []
+    },
+    {
+      "id": "LD-1002",
+      "kind": "viewing",
+      "listing": "L-1044",
+      "name": "Jonah Whitfield",
+      "email": "jonah.whitfield@example.com",
+      "phone": "(555) 014-7712",
+      "message": "",
+      "prefer": "Tue, Oct 20 at 2:00 PM",
+      "address": "",
+      "details": "2026-10-20T14:00",
+      "status": "new",
+      "agent": "a-reed",
+      "created": "2026-10-16T08:15:00",
+      "notes": []
+    },
+    {
+      "id": "LD-1003",
+      "kind": "question",
+      "listing": "L-1058",
+      "name": "Ellen Park",
+      "email": "ellen.park@example.com",
+      "phone": "",
+      "message": "How old is the roof, and is the dock shared?",
+      "prefer": "",
+      "address": "",
+      "details": "",
+      "status": "new",
+      "agent": "a-natarajan",
+      "created": "2026-10-16T06:58:00",
+      "notes": []
+    },
+    {
+      "id": "LD-1004",
+      "kind": "valuation",
+      "listing": "",
+      "name": "Ruth Okafor",
+      "email": "ruth.okafor@example.com",
+      "phone": "(555) 014-9921",
+      "message": "Recent kitchen remodel. Weekday evenings are best.",
+      "prefer": "",
+      "address": "41 Quarry Road",
+      "details": "House \u00B7 4 beds \u00B7 2.5 baths \u00B7 2,150 sq ft \u00B7 Hillcrest \u00B7 Selling within 3 months",
+      "status": "new",
+      "agent": "a-holloway",
+      "created": "2026-10-15T19:20:00",
+      "notes": []
+    },
+    {
+      "id": "LD-1005",
+      "kind": "contact",
+      "listing": "",
+      "name": "Sam Lee",
+      "email": "sam.lee@example.com",
+      "phone": "",
+      "message": "Looking for a 2-bed rental from January, close to the ferry.",
+      "prefer": "",
+      "address": "",
+      "details": "Renting",
+      "status": "new",
+      "agent": "",
+      "created": "2026-10-15T12:05:00",
+      "notes": []
+    },
+    {
+      "id": "LD-1006",
+      "kind": "viewing",
+      "listing": "L-1053",
+      "name": "Dmitri Volkov",
+      "email": "dmitri.volkov@example.com",
+      "phone": "(555) 014-1187",
+      "message": "Can we see it after work?",
+      "prefer": "Mon, Oct 19 at 5:00 PM",
+      "address": "",
+      "details": "2026-10-19T17:00",
+      "status": "new",
+      "agent": "a-price",
+      "created": "2026-10-15T09:30:00",
+      "notes": []
+    },
+    {
+      "id": "LD-1007",
+      "kind": "question",
+      "listing": "L-1050",
+      "name": "Aisha Rahman",
+      "email": "aisha.rahman@example.com",
+      "phone": "(555) 014-5032",
+      "message": "Is the seller open to a quick close?",
+      "prefer": "",
+      "address": "",
+      "details": "",
+      "status": "new",
+      "agent": "a-price",
+      "created": "2026-10-14T21:12:00",
+      "notes": []
+    },
+    {
+      "id": "LD-1008",
+      "kind": "viewing",
+      "listing": "L-1064",
+      "name": "Priscilla Ng",
+      "email": "priscilla.ng@example.com",
+      "phone": "(555) 014-3390",
+      "message": "First-time renter, references ready.",
+      "prefer": "Fri, Oct 16 at 4:30 PM",
+      "address": "",
+      "details": "2026-10-16T16:30",
+      "status": "booked",
+      "agent": "a-price",
+      "created": "2026-10-13T10:02:00",
+      "notes": [
+        {
+          "when": "2026-10-13T11:02:00",
+          "by": "u-admin",
+          "text": "Called back. Booked for today 4:30 PM."
+        },
+        {
+          "when": "2026-10-13T13:02:00",
+          "by": "u-admin",
+          "text": "Sent the rental application link."
+        }
+      ]
+    },
+    {
+      "id": "LD-1009",
+      "kind": "viewing",
+      "listing": "L-1063",
+      "name": "Carlos Mendes",
+      "email": "carlos.mendes@example.com",
+      "phone": "(555) 014-8820",
+      "message": "",
+      "prefer": "Fri, Oct 16 at 11:30 AM",
+      "address": "",
+      "details": "2026-10-16T11:30",
+      "status": "booked",
+      "agent": "a-fitzgerald",
+      "created": "2026-10-14T14:40:00",
+      "notes": [
+        {
+          "when": "2026-10-14T16:40:00",
+          "by": "u-admin",
+          "text": "Pre-approved up to $700K. Viewing booked."
+        }
+      ]
+    },
+    {
+      "id": "LD-1010",
+      "kind": "viewing",
+      "listing": "L-1072",
+      "name": "Hannah Lindqvist",
+      "email": "h.lindqvist@example.com",
+      "phone": "",
+      "message": "Bringing my parents.",
+      "prefer": "Sat, Oct 17 at 10:00 AM",
+      "address": "",
+      "details": "2026-10-17T10:00",
+      "status": "booked",
+      "agent": "a-ortega",
+      "created": "2026-10-14T08:11:00",
+      "notes": [
+        {
+          "when": "2026-10-14T12:11:00",
+          "by": "u-admin",
+          "text": "Booked Saturday 10 AM, 45 minutes for the family."
+        }
+      ]
+    },
+    {
+      "id": "LD-1011",
+      "kind": "viewing",
+      "listing": "L-1078",
+      "name": "Peter Osei",
+      "email": "peter.osei@example.com",
+      "phone": "(555) 014-4471",
+      "message": "",
+      "prefer": "Sat, Oct 17 at 1:30 PM",
+      "address": "",
+      "details": "2026-10-17T13:30",
+      "status": "booked",
+      "agent": "a-holloway",
+      "created": "2026-10-15T16:25:00",
+      "notes": [
+        {
+          "when": "2026-10-15T17:25:00",
+          "by": "u-admin",
+          "text": "Booked. Asked for the HOA documents too."
+        }
+      ]
+    },
+    {
+      "id": "LD-1012",
+      "kind": "viewing",
+      "listing": "L-1075",
+      "name": "Yuki Tanaka",
+      "email": "yuki.tanaka@example.com",
+      "phone": "",
+      "message": "Moving for work in December.",
+      "prefer": "Mon, Oct 19 at 12:00 PM",
+      "address": "",
+      "details": "2026-10-19T12:00",
+      "status": "booked",
+      "agent": "a-price",
+      "created": "2026-10-12T18:47:00",
+      "notes": [
+        {
+          "when": "2026-10-13T09:47:00",
+          "by": "u-admin",
+          "text": "Video call first, then booked an in-person viewing."
+        }
+      ]
+    },
+    {
+      "id": "LD-1013",
+      "kind": "question",
+      "listing": "L-1045",
+      "name": "Fiona Byrne",
+      "email": "fiona.byrne@example.com",
+      "phone": "(555) 014-9383",
+      "message": "What are the property taxes this year?",
+      "prefer": "",
+      "address": "",
+      "details": "",
+      "status": "contacted",
+      "agent": "a-holloway",
+      "created": "2026-10-11T11:20:00",
+      "notes": [
+        {
+          "when": "2026-10-11T14:20:00",
+          "by": "u-admin",
+          "text": "Emailed the tax bill and the last two years of utilities."
+        }
+      ]
+    },
+    {
+      "id": "LD-1014",
+      "kind": "valuation",
+      "listing": "",
+      "name": "Oliver Grant",
+      "email": "oliver.grant@example.com",
+      "phone": "(555) 014-7046",
+      "message": "",
+      "prefer": "",
+      "address": "18 Mill Lane, Unit 3B",
+      "details": "Condo \u00B7 2 beds \u00B7 2 baths \u00B7 1,040 sq ft \u00B7 Riverside \u00B7 Selling within 6 months",
+      "status": "contacted",
+      "agent": "a-reed",
+      "created": "2026-10-10T09:05:00",
+      "notes": [
+        {
+          "when": "2026-10-11T11:05:00",
+          "by": "u-admin",
+          "text": "Visit booked for next Tuesday at 5 PM."
+        }
+      ]
+    },
+    {
+      "id": "LD-1015",
+      "kind": "contact",
+      "listing": "",
+      "name": "Leila Haddad",
+      "email": "leila.haddad@example.com",
+      "phone": "",
+      "message": "Do you manage rentals for owners who live abroad?",
+      "prefer": "",
+      "address": "",
+      "details": "Selling",
+      "status": "contacted",
+      "agent": "a-price",
+      "created": "2026-10-10T15:44:00",
+      "notes": [
+        {
+          "when": "2026-10-11T11:44:00",
+          "by": "u-admin",
+          "text": "Sent our letting terms. Follow up next week."
+        }
+      ]
+    },
+    {
+      "id": "LD-1016",
+      "kind": "question",
+      "listing": "L-1043",
+      "name": "Ben Carter",
+      "email": "ben.carter@example.com",
+      "phone": "(555) 014-3318",
+      "message": "Are pets allowed? We have two cats.",
+      "prefer": "",
+      "address": "",
+      "details": "",
+      "status": "contacted",
+      "agent": "a-holloway",
+      "created": "2026-10-09T20:01:00",
+      "notes": [
+        {
+          "when": "2026-10-10T10:01:00",
+          "by": "u-admin",
+          "text": "Owner agrees to cats. Told him by phone."
+        }
+      ]
+    },
+    {
+      "id": "LD-1017",
+      "kind": "contact",
+      "listing": "",
+      "name": "Lena Park",
+      "email": "lena.park@example.com",
+      "phone": "",
+      "message": "Do you have pet-friendly rentals in Riverside?",
+      "prefer": "",
+      "address": "",
+      "details": "Renting",
+      "status": "contacted",
+      "agent": "a-price",
+      "created": "2026-10-13T13:10:00",
+      "notes": [
+        {
+          "when": "2026-10-13T18:10:00",
+          "by": "u-admin",
+          "text": "Sent three listings."
+        }
+      ]
+    },
+    {
+      "id": "LD-1018",
+      "kind": "viewing",
+      "listing": "L-1054",
+      "name": "Grace Lin",
+      "email": "grace.lin@example.com",
+      "phone": "(555) 014-5150",
+      "message": "",
+      "prefer": "Wed, Oct 7 at 3:00 PM",
+      "address": "",
+      "details": "2026-10-07T15:00",
+      "status": "closed",
+      "agent": "a-ortega",
+      "created": "2026-10-04T10:30:00",
+      "notes": [
+        {
+          "when": "2026-10-04T13:30:00",
+          "by": "u-admin",
+          "text": "Booked."
+        },
+        {
+          "when": "2026-10-07T13:30:00",
+          "by": "u-admin",
+          "text": "Viewed. Liked it but bought elsewhere."
+        }
+      ]
+    },
+    {
+      "id": "LD-1019",
+      "kind": "viewing",
+      "listing": "L-1067",
+      "name": "Marcus Bell",
+      "email": "marcus.bell@example.com",
+      "phone": "(555) 014-2604",
+      "message": "",
+      "prefer": "Fri, Oct 9 at 11:00 AM",
+      "address": "",
+      "details": "2026-10-09T11:00",
+      "status": "closed",
+      "agent": "a-natarajan",
+      "created": "2026-10-06T17:55:00",
+      "notes": [
+        {
+          "when": "2026-10-06T19:55:00",
+          "by": "u-admin",
+          "text": "Booked."
+        },
+        {
+          "when": "2026-10-09T13:55:00",
+          "by": "u-admin",
+          "text": "Did not show up and did not answer the phone."
+        }
+      ]
+    },
+    {
+      "id": "LD-1020",
+      "kind": "viewing",
+      "listing": "L-1059",
+      "name": "Sofia Rossi",
+      "email": "sofia.rossi@example.com",
+      "phone": "(555) 014-6257",
+      "message": "",
+      "prefer": "Sun, Oct 11 at 4:00 PM",
+      "address": "",
+      "details": "2026-10-11T16:00",
+      "status": "closed",
+      "agent": "a-price",
+      "created": "2026-10-08T09:15:00",
+      "notes": [
+        {
+          "when": "2026-10-08T10:15:00",
+          "by": "u-admin",
+          "text": "Booked."
+        },
+        {
+          "when": "2026-10-10T21:15:00",
+          "by": "u-admin",
+          "text": "Cancelled: found a place closer to work."
+        }
+      ]
+    },
+    {
+      "id": "LD-1021",
+      "kind": "valuation",
+      "listing": "",
+      "name": "Noah Fischer",
+      "email": "noah.fischer@example.com",
+      "phone": "",
+      "message": "",
+      "prefer": "",
+      "address": "7 Larch Way",
+      "details": "House \u00B7 3 beds \u00B7 2 baths \u00B7 1,880 sq ft \u00B7 Pine Hollow \u00B7 As soon as possible",
+      "status": "closed",
+      "agent": "a-ortega",
+      "created": "2026-09-26T12:00:00",
+      "notes": [
+        {
+          "when": "2026-09-28T12:00:00",
+          "by": "u-admin",
+          "text": "Valuation sent: $640K to $665K."
+        },
+        {
+          "when": "2026-10-06T12:00:00",
+          "by": "u-admin",
+          "text": "Signed the listing agreement."
+        }
+      ]
+    },
+    {
+      "id": "LD-1022",
+      "kind": "viewing",
+      "listing": "L-1042",
+      "name": "Imani Brooks",
+      "email": "imani.brooks@example.com",
+      "phone": "(555) 014-1902",
+      "message": "",
+      "prefer": "Sat, Oct 3 at 10:30 AM",
+      "address": "",
+      "details": "2026-10-03T10:30",
+      "status": "closed",
+      "agent": "a-holloway",
+      "created": "2026-10-01T08:40:00",
+      "notes": [
+        {
+          "when": "2026-10-01T10:40:00",
+          "by": "u-admin",
+          "text": "Booked."
+        },
+        {
+          "when": "2026-10-03T20:40:00",
+          "by": "u-admin",
+          "text": "Made an offer, accepted."
+        }
+      ]
+    },
+    {
+      "id": "LD-1023",
+      "kind": "question",
+      "listing": "L-1082",
+      "name": "Kevin Doyle",
+      "email": "kevin.doyle@example.com",
+      "phone": "(555) 014-8735",
+      "message": "Is there an EV charger in the garage?",
+      "prefer": "",
+      "address": "",
+      "details": "",
+      "status": "closed",
+      "agent": "a-price",
+      "created": "2026-10-07T19:33:00",
+      "notes": [
+        {
+          "when": "2026-10-08T08:33:00",
+          "by": "u-admin",
+          "text": "Answered by email: yes, Level 2."
+        }
+      ]
+    }
+  ],
+  "viewings": [
+    {
+      "id": "V-2001",
+      "lead": "LD-1008",
+      "listing": "L-1064",
+      "agent": "a-price",
+      "name": "Priscilla Ng",
+      "phone": "(555) 014-3390",
+      "email": "priscilla.ng@example.com",
+      "start": "2026-10-16T16:30:00",
+      "minutes": 30,
+      "status": "booked",
+      "note": "",
+      "created": "2026-10-14T16:30:00",
+      "by": "u-admin"
+    },
+    {
+      "id": "V-2002",
+      "lead": "LD-1009",
+      "listing": "L-1063",
+      "agent": "a-fitzgerald",
+      "name": "Carlos Mendes",
+      "phone": "(555) 014-8820",
+      "email": "carlos.mendes@example.com",
+      "start": "2026-10-16T11:30:00",
+      "minutes": 30,
+      "status": "booked",
+      "note": "Meet at the side gate",
+      "created": "2026-10-14T11:30:00",
+      "by": "u-admin"
+    },
+    {
+      "id": "V-2003",
+      "lead": "LD-1010",
+      "listing": "L-1072",
+      "agent": "a-ortega",
+      "name": "Hannah Lindqvist",
+      "phone": "",
+      "email": "h.lindqvist@example.com",
+      "start": "2026-10-17T10:00:00",
+      "minutes": 45,
+      "status": "booked",
+      "note": "",
+      "created": "2026-10-15T10:00:00",
+      "by": "u-admin"
+    },
+    {
+      "id": "V-2004",
+      "lead": "LD-1011",
+      "listing": "L-1078",
+      "agent": "a-holloway",
+      "name": "Peter Osei",
+      "phone": "(555) 014-4471",
+      "email": "peter.osei@example.com",
+      "start": "2026-10-17T13:30:00",
+      "minutes": 30,
+      "status": "booked",
+      "note": "",
+      "created": "2026-10-15T13:30:00",
+      "by": "u-admin"
+    },
+    {
+      "id": "V-2005",
+      "lead": "LD-1012",
+      "listing": "L-1075",
+      "agent": "a-price",
+      "name": "Yuki Tanaka",
+      "phone": "",
+      "email": "yuki.tanaka@example.com",
+      "start": "2026-10-19T12:00:00",
+      "minutes": 30,
+      "status": "booked",
+      "note": "",
+      "created": "2026-10-17T12:00:00",
+      "by": "u-admin"
+    },
+    {
+      "id": "V-2006",
+      "lead": "LD-1018",
+      "listing": "L-1054",
+      "agent": "a-ortega",
+      "name": "Grace Lin",
+      "phone": "(555) 014-5150",
+      "email": "grace.lin@example.com",
+      "start": "2026-10-07T15:00:00",
+      "minutes": 30,
+      "status": "done",
+      "note": "",
+      "created": "2026-10-04T13:00:00",
+      "by": "u-admin"
+    },
+    {
+      "id": "V-2007",
+      "lead": "LD-1019",
+      "listing": "L-1067",
+      "agent": "a-natarajan",
+      "name": "Marcus Bell",
+      "phone": "(555) 014-2604",
+      "email": "marcus.bell@example.com",
+      "start": "2026-10-09T11:00:00",
+      "minutes": 30,
+      "status": "noshow",
+      "note": "",
+      "created": "2026-10-06T19:00:00",
+      "by": "u-admin"
+    },
+    {
+      "id": "V-2008",
+      "lead": "LD-1020",
+      "listing": "L-1059",
+      "agent": "a-price",
+      "name": "Sofia Rossi",
+      "phone": "(555) 014-6257",
+      "email": "sofia.rossi@example.com",
+      "start": "2026-10-11T16:00:00",
+      "minutes": 30,
+      "status": "cancelled",
+      "note": "Cancelled: found a place closer to work",
+      "created": "2026-10-08T10:00:00",
+      "by": "u-admin"
+    },
+    {
+      "id": "V-2009",
+      "lead": "LD-1022",
+      "listing": "L-1042",
+      "agent": "a-holloway",
+      "name": "Imani Brooks",
+      "phone": "(555) 014-1902",
+      "email": "imani.brooks@example.com",
+      "start": "2026-10-03T10:30:00",
+      "minutes": 30,
+      "status": "done",
+      "note": "",
+      "created": "2026-10-01T09:30:00",
+      "by": "u-admin"
+    },
+    {
+      "id": "V-2010",
+      "lead": "",
+      "listing": "L-1086",
+      "agent": "a-price",
+      "name": "Grace Lin",
+      "phone": "(555) 014-5150",
+      "email": "grace.lin@example.com",
+      "start": "2026-10-19T15:30:00",
+      "minutes": 30,
+      "status": "booked",
+      "note": "Called the office",
+      "created": "2026-10-15T10:00:00",
+      "by": "u-admin"
+    },
+    {
+      "id": "V-2011",
+      "lead": "",
+      "listing": "L-1057",
+      "agent": "a-ortega",
+      "name": "Tom Alvarez",
+      "phone": "(555) 014-6604",
+      "email": "tom.alvarez@example.com",
+      "start": "2026-10-14T12:00:00",
+      "minutes": 30,
+      "status": "done",
+      "note": "",
+      "created": "2026-10-12T09:00:00",
+      "by": "u-admin"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+<div class="li-site li-admin" id="li-site" data-theme="light" style="{plhd_style}">
+<header class="li-ahead">
+    <button type="button" class="li-ibtn li-burger" aria-label="Menu" onclick="AdminListingsJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <a class="li-abrand" href="Admin"><svg class="li-logo" viewBox="0 0 40 40" width="40" height="40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="var(--li-accent)"/><path d="M8 21L20 10l12 11" fill="none" stroke="#fff" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M12.5 19.5V30h15V19.5" fill="none" stroke="#fff" stroke-width="2.8" stroke-linejoin="round"/><path d="M17.5 30v-6h5v6" fill="#fff"/></svg>{plhd_name}<span>Admin</span></a>
+    <span class="li-grow"></span>
+    <a class="li-who" id="li-who" href="AdminAccount"></a>
+    <a class="li-view" href="Home" target="_blank" rel="noopener">View site</a>
+    <button type="button" class="li-out" onclick="AdminListingsJs.signOut()">Sign out</button>
+</header>
+<aside class="li-side" id="li-nav" aria-label="Admin">
+    <div class="li-nav-top"><span>Menu</span><button type="button" class="li-ibtn" aria-label="Close" onclick="AdminListingsJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <ul class="li-amenu" id="li-menu"></ul>
+</aside>
+<div class="li-scrim" id="li-scrim" onclick="AdminListingsJs.closeNav()"></div>
+<main class="li-amain" id="li-main"><p class="li-loading">Loading&hellip;</p></main>
+<div class="li-modal" id="li-modal" onclick="if(event.target===this)AdminListingsJs.closeModal()">
+    <div class="li-mbox" role="dialog" aria-modal="true"><button type="button" class="li-ibtn li-mclose" aria-label="Close" onclick="AdminListingsJs.closeModal()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button><div id="li-mbody"></div></div>
+</div>
+<div class="li-toast" id="li-toast" role="status" aria-live="polite"></div>
+</div>

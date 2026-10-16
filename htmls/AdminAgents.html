@@ -1,0 +1,20 @@
+<div class="ta-site ta-admin" id="ta-site" data-theme="light" style="{plhd_style}">
+<header class="ta-ahead">
+    <button type="button" class="ta-ibtn ta-burger" aria-label="Menu" onclick="AdminAgentsJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <a class="ta-abrand" href="Admin"><svg class="ta-logo" viewBox="0 0 40 40" width="40" height="40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="var(--ta-accent)"/><path d="M8 21L20 10l12 11" fill="none" stroke="#fff" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M12.5 19.5V30h15V19.5" fill="none" stroke="#fff" stroke-width="2.8" stroke-linejoin="round"/><path d="M17.5 30v-6h5v6" fill="#fff"/></svg>{plhd_name}<span>Admin</span></a>
+    <span class="ta-grow"></span>
+    <a class="ta-who" id="ta-who" href="AdminAccount"></a>
+    <a class="ta-view" href="Home" target="_blank" rel="noopener">View site</a>
+    <button type="button" class="ta-out" onclick="AdminAgentsJs.signOut()">Sign out</button>
+</header>
+<aside class="ta-side" id="ta-nav" aria-label="Admin">
+    <div class="ta-nav-top"><span>Menu</span><button type="button" class="ta-ibtn" aria-label="Close" onclick="AdminAgentsJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <ul class="ta-amenu" id="ta-menu"></ul>
+</aside>
+<div class="ta-scrim" id="ta-scrim" onclick="AdminAgentsJs.closeNav()"></div>
+<main class="ta-amain" id="ta-main"><p class="ta-loading">Loading&hellip;</p></main>
+<div class="ta-modal" id="ta-modal" onclick="if(event.target===this)AdminAgentsJs.closeModal()">
+    <div class="ta-mbox" role="dialog" aria-modal="true"><button type="button" class="ta-ibtn ta-mclose" aria-label="Close" onclick="AdminAgentsJs.closeModal()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button><div id="ta-mbody"></div></div>
+</div>
+<div class="ta-toast" id="ta-toast" role="status" aria-live="polite"></div>
+</div>

@@ -1,0 +1,17 @@
+<div class="lg-site lg-login" id="lg-site" data-theme="light" style="{plhd_style}">
+<img class="lg-lbg" src="images/homes/full/hero-street.webp" alt="">
+<main class="lg-main lg-lwrap">
+    <div class="lg-lcard">
+        <a class="lg-lbrand" href="Home"><svg class="lg-logo" viewBox="0 0 40 40" width="40" height="40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="var(--lg-accent)"/><path d="M8 21L20 10l12 11" fill="none" stroke="#fff" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M12.5 19.5V30h15V19.5" fill="none" stroke="#fff" stroke-width="2.8" stroke-linejoin="round"/><path d="M17.5 30v-6h5v6" fill="#fff"/></svg><b>{plhd_brand}</b><span>Admin</span></a>
+        <h1>Staff sign in</h1>
+        <form class="lg-lform" onsubmit="return AdminLoginJs.signIn()" novalidate>
+            <label class="lg-field" for="lg-user"><span>User name</span><input type="text" id="lg-user" maxlength="40" autocomplete="username" autocapitalize="none" value="{plhd_user}"></label>
+            <label class="lg-field" for="lg-pass"><span>Password</span><input type="password" id="lg-pass" maxlength="100" autocomplete="current-password" value="{plhd_pass}"></label>
+            <em class="lg-err" id="lg-e-pass" role="alert"></em>
+            <button type="submit" class="lg-btn lg-btn-wide" id="lg-lgo">Sign in</button>
+            {plhd_hint}
+        </form>
+        <a class="lg-lback" href="Home">&larr; Back to the website</a>
+    </div>
+</main>
+</div>
